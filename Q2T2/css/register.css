@@ -1,0 +1,103 @@
+﻿body{
+	padding: 0px;
+	background-image: url(../image/beijing.gif);
+	margin-top: 9px;
+	margin-bottom: 20px;
+	background-color: #FFFFFF;
+	
+}
+.container
+{
+	margin:0 auto; 
+	width: 710px;
+	border-radius: 20px;
+	padding:20px;
+	background: #FFFFFF;
+}
+.head_table
+{
+	width: 710px;
+	border: 0px;
+	background: #FFFFFF;
+}
+td{
+	font-size: 12px;
+	color: #333333;
+}
+td a{
+	color: #FF0099;
+}
+.td_font{
+	font-size: 12px;
+	line-height: 130%;
+	text-decoration: none;
+	color: #333333;
+	text-align: right;
+	vertical-align: bottom;
+}
+a{
+	text-decoration: none;
+}
+a:visited{
+	color: #333333;
+	text-decoration: none;
+}
+.back{
+	color: #0606cd;
+}
+.middle_table{
+	width: 710px;
+	border: 0px;
+	background-color: #FFFFFF;
+}
+
+.titleinfo{
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 50px;
+}
+.list_title{
+	height: 25px;
+	text-align: left;
+	vertical-align: bottom;
+}
+.blue{
+	color:#0000ff;
+	background-color: #FFFFFF;
+}
+.left-td{
+	text-align: right;
+	background-color: #FFFFFF;
+}
+.strong{
+	font-weight: bold;
+}
+.Mess_info
+{
+	text-align: center;
+	background-image: url(../image/beijin1.gif);
+}
+.title_head{
+	background-color: #EEEEEE;
+	font-size: 13px;
+	color: #003399;
+	font-weight: bold;
+}
+.from_table{
+	widows: 90%;
+	border: 0px;
+	background-color: #CCCCCC;
+}
+.sumbit_button{
+	text-align: center;
+	background-color: #FFFFFF;
+	line-height: 100px;
+}
+.bottom_table{
+	widows: 710px;
+	border: 0px;
+	background-color: #FFFFFF;
+	line-height: 20px;
+	text-align: center;
+	padding-left: 230px;
+}

@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: red;
+    height: 150px;
+}
+
+.atricle {
+    background-color: yellow;
+    height: 300px;
+    /*padding-left:150px;
+			padding-right:100px;给父容器加左右两边的留白*/
+    overflow: hidden;
+}
+
+.footer {
+    background-color: blue;
+    height: 100px;
+}
+
+.atricle .left {
+    background-color: grey;
+    float: left;
+    /*opacity: 0.3;设置透明度可以看到后面div所处的位置*/
+    width: 150px;
+    margin-left: -100%;
+    /*margin-left设置等于宽度时，与middle显示同行，出现在右边；设置为-100%时，与middle左边重合*/
+    /*position: relative;
+	  left:-250px;设置元素relative，以自身为点往左移动（X轴负方向）*/
+			
+    margin-bottom: : -9999px;
+    padding-bottom: 9999px;
+}
+
+.atricle .middle {
+    background-color: brown;
+    float: left;
+    width: 100%;
+    /*浮动元素，并具有块级元素的特性*/
+    margin-bottom: : -9999px;
+    padding-bottom: 9999px;
+}
+
+.atricle .right {
+    background-color: black;
+    color: white;
+    /*margin-left: 5px; 此处设置margin-left留白无效*/
+    float: left;
+    width: 100px;
+    margin-left: -100px;
+    /*显示在右边的*/
+    /*position: relative;
+	   left:200px;  设置元素relative，以自身为点往右移动（X轴正方向） left:相对于middle左边的顶点 right:相对于middle右边的顶点*/
+			
+    margin-bottom: : -9999px;
+    padding-bottom: 9999px;
+}
+
+.inner {
+    margin-left: 150px;
+    margin-right: 100px;
+    background-color: white;
+}

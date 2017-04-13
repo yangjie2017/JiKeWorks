@@ -1,0 +1,22 @@
+*{
+	margin: 0;
+	padding:0;
+}
+.box{
+	position: relative;
+	float: left;
+}
+.content{
+	padding: 10px;
+	border: 1px solid #ccc;
+}
+.content img{
+	width: 190px;
+	height:auto; /*高度自适应*/
+}
+.content p{
+	font-size: 13px;
+	line-height: 30px;
+	padding-left: 10px;
+}
+

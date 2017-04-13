@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>计算器</title>
+  <link rel="stylesheet" type="text/css" href="css/Cal.css">
+ </head>
+ <body>
+	<div id="container">
+		<div id="cal">
+			<input type="text" id="showinpput" value="0" onkeydown='return GetInput()' /><span class="saveM" id="showM">M</span>
+			<input type="button" class="firstRow" value="存储" id="btnSaveNum">
+			<input type="button" class="firstRow" value="取存" id="btnPickNum">
+			<input type="button" class="firstRow" value="累存" id="btnTotalNum">
+			<input type="button" class="firstRow" value="积存" id="btnTimesNum">
+			<input type="button" class="firstRow" value="清存" id="btnClearNum">
+
+			<input type="button" class="clearbutton" value="回退" id="btnDel">
+			<input type="button" class="clearbutton" value="全清" id="btnClearAll">
+			<input type="button" class="clearbutton" value="清屏" id="btnClearInput">
+			<input type="button" class="blackbuttom" value="+/-" id="btnChangeNum">
+			<input type="button" class="blackbuttom" value="1/×" id="btnReciprocalNum">
+
+			<input type="button" class="otherRow" value="7" onclick="inputnum(7)">
+			<input type="button" class="otherRow" value="8" onclick="inputnum(8)">
+			<input type="button" class="otherRow" value="9" onclick="inputnum(9)">
+			<input type="button" class="calbutton" value="÷" id="btnDivide">
+			<input type="button" class="blackbuttom" value="%" id="btnPersent">
+
+			<input type="button" class="otherRow" value="4" onclick="inputnum(4)">
+			<input type="button" class="otherRow" value="5" onclick="inputnum(5)">
+			<input type="button" class="otherRow" value="6" onclick="inputnum(6)">
+			<input type="button" class="calbutton" value="×" id="btnTimes">
+			<input type="button" class="blackbuttom" value="√" id="btnSqrtNum">
+
+			<input type="button" class="otherRow" value="1" onclick="inputnum(1)">
+			<input type="button" class="otherRow" value="2" onclick="inputnum(2)">
+			<input type="button" class="otherRow" value="3" onclick="inputnum(3)">
+			<input type="button" class="calbutton" value="-" id="btnMinus">
+			<input type="button" class="rowspan" value="=" id="btnEqual">
+
+			<input type="button" class="cospan" value="0" id="btnZero" onclick="inputnum(0)">
+			<input type="button" class="otherRow" value="." id="btnDot">
+			<input type="button" class="calbutton" value="+" id="btnPlus">
+		</div>
+	</div>
+
+	<script type="text/javascript" src="js/Cal.js"></script>
+ </body>
+</html>

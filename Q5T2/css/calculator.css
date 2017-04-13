@@ -1,0 +1,21 @@
+*{
+	margin:0;
+	padding:0
+}
+.container{
+	width:500px;
+	height:300px;
+	background:#eee;
+	margin:10px auto;
+	text-align:center;
+	padding-top:20px;
+}
+
+/*查询结果样式*/
+span{
+	color:red;
+}
+#Symbol{
+	width: 172px;
+    height: 24px;
+}

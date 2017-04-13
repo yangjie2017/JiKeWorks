@@ -1,0 +1,72 @@
+.container{
+	/*display: -webkit-box;*/  /*默认垂直方向，不占满容器，旧版用法*/
+	display: -webkit-flex; /*弹性布局*/
+	/*-webkit-box-orient:horizontal; 
+	width: 600px;*/
+	-webkit-flex-direction: column; /*列：垂直方向*/
+	height: 600px;/*设定高度后，垂直方向1:1:1占满容器*/
+	width: 600px;
+	background-color: #A7D4DF;
+}
+.first{
+	height: 100px;
+	-webkit-flex:1; /*弹性布局，所占宽度比例*/
+	background-color: orange;
+}
+.second{
+	height: 100px;
+	-webkit-flex:1;
+	background-color: #6FFFCE;
+}
+.three{
+	height: 200px;
+	-webkit-flex:1;
+	background-color: #E3FF7F;
+}
+
+.container2{
+	display: -webkit-flex; /*弹性布局*/
+	-webkit-flex-direction: row; 
+	width: 600px;
+	background-color: #A7D4DF;
+}
+.first2{
+	-webkit-order:2;/*弹性盒模型排序*/	
+	height: 100px;
+	-webkit-flex:1; /*弹性布局，所占宽度比例*/
+	background-color: orange;
+}
+.second2{
+	-webkit-order:3;/*弹性盒模型排序*/
+	height: 100px;
+	-webkit-flex:1;
+	background-color: #6FFFCE;
+}
+.three2{
+	-webkit-order:1; /*弹性盒模型排序*/
+	height: 200px;
+	-webkit-flex:1;
+	background-color: #E3FF7F;
+}
+
+.container3{
+	display: -webkit-box; /*旧版布局*/
+	-webkit-box-orient:vertical;/*旧版垂直布局*/
+	width: 600px;
+	background-color: #A7D4DF;
+}
+.first3{
+	height: 100px;
+	-webkit-box-flex:1; /*弹性布局，所占宽度比例*/
+	background-color: orange;
+}
+.second3{
+	height: 100px;
+	-webkit-box-flex:1;
+	background-color: #6FFFCE;
+}
+.three3{
+	height: 200px;
+	-webkit-box-flex:1;
+	background-color: #E3FF7F;
+}

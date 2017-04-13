@@ -1,0 +1,23 @@
+/*.fleft{
+	float: left;
+	width: 300px;
+}
+.fright
+{
+	float: left;
+	width: 300px;
+	margin-left: 5px;
+}*/
+.col{
+	-webkit-column-count:3;  /*分列*/
+	-webkit-column-rule-style: dotted; /*分列中间的样式*/
+}
+
+.center{
+	display:-webkit-box;
+	-webkit-box-pack:center; /*水平居中*/
+	-webkit-box-align:center; /*垂直居中*/
+	height: 300px;
+	width: 300px;
+	background-color: gray;
+}

@@ -1,0 +1,907 @@
+*{
+	margin:0;
+	padding:0;
+  }
+  a{
+  	border: none;
+  	text-decoration: none;
+  	color: #333;
+  }
+  body{
+  	    font: 14px/100% arial,"Hiragino Sans GB","Hiragino Sans GB W3",\5b8b\4f53;
+  }
+  /*头部样式*/
+ #header{
+	width:1190px;
+	height:61px;
+	margin:0 auto;
+	position:relative;
+}
+.header-border{
+	width: 100%;
+	border-bottom: 1px solid rgb(204, 204, 204);
+	opacity: 0.2;
+}
+/*logo图片*/
+.logoImg
+{
+	display: inline-block;
+	vertical-align: middle;
+	position: absolute;
+}
+/*设为首页*/	
+.setIndex{
+	width: 25px;
+	position: absolute;
+	top: 0;
+	margin-top: 10px;
+	margin-right: 22px;
+	padding: 1px 5px;
+	display: block;
+	float: left;
+	color: #fff;
+	text-align: center;
+	background: #07ac72;
+	border-radius: 2px;
+	left:168px;
+}
+/*设为首页文字样式*/
+.js_text{
+	font-size: 10px;
+}
+
+.search-input{
+	height: 82px;
+}
+
+.header-right{
+	position: absolute;
+	width: 320px;
+    right: 0;
+}
+
+.loginlink{
+		display: inline-block;
+	    width:37px;
+	    height: 50px;
+	    color: rgb(153, 153, 153);
+	    line-height: 60px;
+	    font-size: 12px;
+}
+/*登录小图标*/
+.loginlink-icon{
+	width: 20px;
+    height: 60px;
+    margin-left: -22px;
+    background-image: url('https://gss1.bdstatic.com/5eN1dDebRNRTm2_p8IuM_a/v5/B4/uF/o3/lc/nj/index_widthlg.png');
+    background-repeat: no-repeat;
+    background-position: -40px -110px;
+    position: absolute;
+}
+/*头部右侧新闻*/
+.rightnew{
+	display: inline-block;
+	    width: 100px;
+	    height: 50px;
+	    float: right;
+	    color: rgb(10, 167, 112);
+	    line-height: 60px;
+	    font-size: 12px;
+}
+/*头部右侧新闻笑脸图标*/
+.rightnew-icon{
+	background: url(../image/new_index_icon.png) no-repeat -96px -46px; 
+	left: 198px; 
+	top: 23px; 
+	width: 15px; 
+	height: 15px; 
+	position: absolute;
+}
+
+/*------------------搜索框部分-start--------------*/
+.search-input{
+	width: 1190px;
+	margin: 0 auto;
+	height: 82px;
+	text-align: center;
+	vertical-align: middle;
+	position: relative;
+
+}
+.search-input-content{
+	padding-top: 20px;
+}
+/*百度logo*/
+.searchinput-icon{
+	background: url(../image/index_widthlg.png) -10px -212px no-repeat;
+	width: 120px;
+    height: 40px;
+    display: inline-block;
+    position: absolute;
+    left: 113px;
+    top: 23px;
+}
+#search-all{
+	width: 664px;
+	height: 46px;
+	margin: 0 auto;
+	position: relative;
+}
+/*百度一下 文本框*/
+.searchinput{
+	width: 540px;
+    height: 42px;
+     font-size: 14px;
+     float: left;
+	text-indent: 60px;
+}
+/*百度一下 按钮*/
+.Searchbutton{
+    width: 120px;
+    height: 46px;
+    background: url(../image/index_widthlg.png) no-repeat -211px -180px;
+	border: 0;
+    font-size: 14px;
+    cursor: pointer;
+    vertical-align:middle;
+    float: left;
+}
+/*文本框左边的下拉菜单*/
+.tabs-toggle{
+	cursor: pointer;
+    position: absolute;
+    top: 1px;
+    left: -4px;
+    z-index: 1;
+    padding: 0 10px;
+    width: 38px;
+    height: 44px;
+    font: normal 12px/45px simsun;
+    text-decoration: none;
+    color: #999;
+    background: url(../image/index_widthlg.png) -319px 0;
+}
+.arrow{
+	overflow: hidden;
+    position: absolute;
+    top: 19px;
+    left: 45px;
+    width: 9px;
+    height: 6px;
+    text-indent: -999px;
+    background: url(../image/index_widthlg.png) -52px -97px;
+}
+/*文本框右边的红色数字*/
+.hotword-hook{
+	position: absolute;
+	right: 5px;
+	top: 9px;
+	width: 24px;
+	height: 24px;
+	text-indent: -99999px;
+	z-index: 12;
+}
+.hot-num{
+    position: absolute;
+    top: 4px;
+    left: -122px;
+    width: 18px;
+    height: 18px;
+    text-indent: 0;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    background: url(../image/sug_icon.png) no-repeat;
+    line-height: 18px;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 12px;
+}
+/*------------------搜索框部分-end--------------*/
+/*-----------------热搜列表 start---------------*/
+ul li{
+	text-decoration: none;
+	display:inline-block;
+}
+ul li a.seachtext{
+	font-size: 12px;
+    line-height: 20px;
+    color: #666;
+}
+ul li a:hover{
+    color: red;
+    text-decoration: underline;
+}
+.search-list{
+	width: 1000px;
+    margin: -9px auto 20px;
+}
+.hotSearch-box{
+	width: 664px;
+    position: relative;
+    margin-left: 168px;
+}
+/*热搜小图标*/
+.hotSearch-link{
+	color: #090;
+    padding-left: 15px;
+    padding-bottom: 1px;
+    background: url(../image/index_widthlg.png) -159px -260px no-repeat;
+    _background: url(../image/icon_ie6.png) -312px 0 no-repeat;
+}
+.title{
+    font-size: 12px;
+    line-height: 20px;
+    color: #999;
+}
+.text{
+	margin-right: 20px;
+}
+/*-----------------热搜列表 end---------------*/
+
+/*------------页面主体------------*/
+/*菜单列表*/
+.hao123-main{
+	position: relative;
+}
+.main-menus{
+	width: 1190px;
+    height: 38px;
+    border-top: 2px solid #099e6a;
+    border-bottom: 1px solid #eaeaea;
+    background-color: #fcfcfc;
+    margin: 0 auto;
+}
+.menu-title{
+	    border-width: 2px 0 0 0;
+}
+.menu-split{
+	display: block;
+    width: 1px;
+    height: 40px;
+    position: absolute;
+    top:-8px;
+    right: -23px;
+    background: url(../image/menus_split.png) center left no-repeat;
+}
+.link{
+	    border-right: 0;
+    text-align: center;
+    color: #333;
+    position: relative;
+    font-family: Microsoft Yahei;
+    font-size: 16px;
+}
+.link.active{
+	    background-color: #0aa770;
+    cursor: pointer;
+    color: #fff;
+}
+a.active:hover{
+	text-decoration: none;
+}
+.menu{
+	height: 38px;
+    line-height: 38px;
+    width: 110px;
+    float: left;
+    text-align: center;
+    cursor: pointer;
+    overflow: hidden;
+}
+.first{
+	    width: 86px;
+    height: 38px;
+    background: #0aa770;
+}
+/*-------------------------------菜单列表end-----------------------------------*/
+/*权威推荐*/
+.govSiteTop{
+	    width: 100%;
+    margin-bottom: 10px;
+    margin-top: -10px;
+    overflow: hidden;
+}
+.govsite-inner{
+	    width: 1188px;
+    height: 36px;
+    border: solid 1px #84d7ba;
+    line-height: 36px;
+    margin: 0 auto;
+    font-size: 14px;
+    color: #666;
+    background: #fff;
+    position: relative;
+    overflow: hidden;
+}
+.titel{
+	vertical-align: top;
+    width: 80px;
+    height: 36px;
+    text-align: center;
+    color: #0aa770;
+}
+.g-ib{
+	display: inline-block;
+}
+.titel-line{
+vertical-align: top;
+    height: 20px;
+    width: 1px;
+    background-color: #eaeaea;
+    position: relative;
+    top: 9px;
+    margin-right: 36px;
+}
+.govsite-item{
+	    height: 36px;
+    line-height: 36px;
+    vertical-align: top;
+    margin-right: 36px;
+}
+.govsite-link{
+	height: 36px;
+    line-height: 36px;
+    vertical-align: top;
+    color: #333;
+    text-decoration: none;
+}
+.startbar-list{
+	display: inline-block;
+    margin-bottom: 6px;
+}
+
+.layout-content{
+	width: 1190px;
+	margin:0 auto;
+	position: relative;
+}
+/*-------------------------------权威推荐end-----------------------------------*/
+/*左边菜单*/
+.layout-content-slider{
+	width: 280px;
+	float: left;
+    position: absolute;
+    z-index: 99;
+    border: 1px solid #ccc;
+}
+.box-startbar{
+	border: 1px solid #ccc;
+	margin-top: -1px;
+	margin-left: -1px;
+	margin-right: -1px;
+	padding: 9px 0 0 18px;
+	height: 143px;
+	position: relative;
+    border-top: 1px solid #ebebeb;
+    padding-top: 10px;
+}
+.servicetab-bd{
+	position: relative;
+    width: 100%;
+    overflow: hidden;
+    background-color: #fff;
+}
+ a.link-hover:hover{
+	color: #0aa770;
+	text-decoration: none;
+}
+.govSiteTop a:hover{
+	color: red;
+	text-decoration: underline;
+}
+.box-startbar ul li a{
+	color: #333;
+}
+.box-startbar ul li a:hover{
+	color: red;
+}
+.star-icon{
+	position: absolute;
+    width: 20px;
+    height: 20px;
+    background: url('../image/index_menus_widthlg.png') no-repeat;
+}
+/*电视小图标*/
+.i-tv{
+	    background-position: -20px -81px;
+	    width: 20px;
+}
+/*游戏小图标*/
+.i-game{
+	background-position: -19px -301px;
+	position: absolute;
+	left:143px;
+}
+/*电影小图标*/
+.i-movie{
+	background-position: -20px -160px;
+	position: absolute;
+	top:42px;
+	left:18px;
+}
+/*动漫小图标*/
+.i-comic{
+	background-position: -20px -381px;
+	position: absolute;
+	top:42px;
+	left:143px;
+}
+/*新闻小图标*/
+.i-toutiao{
+	background-position: -20px -100px;
+	position: absolute;
+	left:18px;
+	top:73px;
+}
+/*旅游小图标*/
+.i-travel{
+	background-position: -20px -261px;
+	position: absolute;
+	left:143px;
+	top:73px;
+}
+/*彩票小图标*/
+.i-caipiao{
+	background-position: -20px -21px;
+	position: absolute;
+	left:18px;
+	top:103px;
+}
+/*搞笑小图标*/
+.i-gaoxiao{
+	background-position: -20px -121px;
+	position: absolute;
+	left:143px;
+	top:103px;
+}
+/*特价小图标*/
+.i-tuan{
+	background-position: -20px -281px;
+	position: absolute;
+	left:18px;
+	top:128px;
+}
+/*股票小图标*/
+.i-music{
+	background-position: -20px -362px;
+	position: absolute;
+	left:143px;
+	top:128px;
+}
+/*第一行*/
+.tv{
+	font-size: 14px;
+    position: absolute;
+    left: 42px;
+}
+.split-tv-zy{
+	position: absolute;
+	left: 88px;
+}
+.zongyi{
+	position: absolute;
+	left:97px;
+}
+.ge{
+	position: absolute;
+	left:167px;
+}
+.split-ge-sge{
+	position: absolute;
+	left:199px;
+}
+.sge{
+	position: absolute;
+	left:208px;
+}
+/*第二行*/
+.mov{
+	position: absolute;
+	left:42px;
+	top:45px;
+}
+.split-mov-line{
+	position: absolute;
+	left:75px;
+	top:45px;
+}
+.line{
+	position: absolute;
+	left:85px;
+	top:45px;
+}
+.pic{
+	position: absolute;
+	left:167px;
+	top:45px;
+}
+.split-pic-ani
+{
+	position: absolute;
+	left:199px;
+	top:45px;
+}
+.ani{
+	position: absolute;
+	left:208px;
+	top:45px;
+}
+/*第三行*/
+.news{
+	position: absolute;
+	left:42px;
+	top:75px;
+}
+.split-news-junshi{
+	position: absolute;
+	left:75px;
+	top:75px;
+}
+.junshi{
+	position: absolute;
+	left:85px;
+	top:75px;
+}
+.tra{
+	position: absolute;
+	left:167px;
+	top:75px;
+}
+.split-tra-mu{
+	position: absolute;
+	left:199px;
+	top:75px;
+}
+.mu{
+	position: absolute;
+	left:208px;
+	top:75px;
+}
+/*第四行*/
+.cp{
+	position: absolute;
+	left:42px;
+	top:105px;
+}
+.split-cp-jc
+{
+	position: absolute;
+	left:75px;
+	top:105px;
+}
+.jc{
+	position: absolute;
+	left:85px;
+	top:105px;
+}
+.gx{
+	position: absolute;
+	left:167px;
+	top:105px;
+}
+.split-gx-xs{
+	position: absolute;
+	left:199px;
+	top:105px;
+}
+.xs{
+	position: absolute;
+	left:208px;
+	top:105px;
+}
+/*第五行*/
+.tj{
+	position: absolute;
+	left:42px;
+	top:130px;
+}
+.split-tj-sj{
+	position: absolute;
+	left:75px;
+	top:130px;
+}
+.sj{
+	position: absolute;
+	left:85px;
+	top:130px;
+}
+.gp{
+	position: absolute;
+	left:167px;
+	top:130px;
+}
+.split-gp-lc{
+	position: absolute;
+	left:199px;
+	top:130px;
+}
+.lc{
+	position: absolute;
+	left:208px;
+	top:130px;
+}
+/*天气 星座 网盘 快递 违章*/
+.startools-icon{
+	display: block;
+    width: 20px;
+    height: 20px;
+    float: left;
+    background: red;
+    margin-top: 6px;
+    margin-left: 18px;
+    background: url('../image/index_menus_widthlg.png') no-repeat;
+    background-position: -20px -221px;
+}
+.startools-arrow{
+	display: block;
+    float: right;
+    width: 14px;
+    height: 14px;
+    background: url(../image/new_index_icon.png) no-repeat -64px -22px;
+    cursor: pointer;
+    margin-right: 13px;
+    position: absolute;
+    right: 0;
+    top: 13px;
+}
+
+.startools-list{
+	margin-right: -24px;
+    margin-left: 8px;
+    padding-top: 10px;
+    padding-left: 37px;
+}
+.startools-link{
+	width: 40px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 12px;
+    text-align: left;
+    color: #666;
+    white-space: nowrap;
+    margin-bottom: 11px;
+}
+.startools-container{
+	    height: 35px;
+}
+
+/*右边部分*/
+.layout-content-ct{
+	border: 1px solid #84d7ba;
+    width: 900px;
+    position: absolute;
+    right: 0;
+    height: 262px;
+}
+
+.js_manage{
+	position: absolute;
+    top: 0;
+    right: 0;
+    width: 33px;
+    height: 33px;
+    background-repeat: no-repeat;
+    background-position: -316px -128px;
+    cursor: pointer;
+    z-index: 999;
+    background-image: url('../image/index_widthlg.png');
+}
+.js_bd{
+	width: 868px;
+    padding-left: 23px;
+    padding-top: 3px;
+    padding-bottom: 3px;   
+}
+.js_site-item{
+	width: 128px;
+    padding-top: 6px;
+    padding-bottom: 4px;
+    margin-right: 4px;
+    padding-left: 9px;
+    position: relative;
+    color: #000;
+    font-size: 14px;
+    height: 20px;
+    line-height: 20px;
+    vertical-align: top;
+}
+.imgstyle {
+    padding-left: 25px;
+    padding-top: 2px;	
+}
+/*百度图标*/
+.baidustyle{
+    background: url(../image/defaultIcon1229.png) no-repeat 2px -198px;
+}
+/*新浪图标*/
+.sinastyle{
+    background: url(../image/defaultIcon1229.png) no-repeat 2px -278px;
+}
+/*搜狐图标*/
+.sohostyle{
+	background: url(../image/defaultIcon1229.png) no-repeat 2px -318px;
+}
+/*腾讯图标*/
+.tengxunstyle{
+	background: url(../image/defaultIcon1229.png) no-repeat 2px -38px;
+}
+/*网易*/
+.wystyle{
+	background: url(../image/defaultIcon1229.png) no-repeat 2px -157px;
+}
+/*优酷*/
+.yukustyle{
+	background: url(../image/defaultIcon1229.png) no-repeat 2px -398px;
+}
+/*天猫*/
+.tmallstyle{
+	background: url(../image/defaultIcon1229.png) no-repeat 2px -479px;
+}
+/*凤凰网*/
+.fhstyle{
+	background: url(../image/defaultIcon1229.png) no-repeat 2px -238px;
+}
+/*淘宝网*/
+.taobaostyle{
+	background: url(../image/defaultIcon1229.png) no-repeat 2px -358px;
+}
+/*天猫年货节*/
+.tmnhStyle{
+	position: absolute;
+    top: 0px;
+    left: 8px;
+}
+/*4399游戏*/
+.gameStyle{
+	background: url(../image/defaultIcon1229.png) no-repeat 2px 2px;
+}
+/*hao123影视*/
+.hao123Mov{
+	background: url(../image/1419388771.png) no-repeat;
+}
+/*京东商城*/
+.jdStyle{
+	background: url(../image/21.1.png) no-repeat;
+}
+/*苏宁易购*/
+.snStyle{
+	background: url(../image/8022_1.png) no-repeat;
+}
+/*今日特价*/
+.todayStyle{
+	background: url(../image/6282.png) no-repeat;
+}
+/*体育*/
+.tyStyle{
+	background: url(../image/51619.png) no-repeat;
+}
+/*汽车之家*/
+.carStyle{
+	background: url(../image/defaultIcon1229.png) no-repeat 2px -518px;
+}
+/*聚划算*/
+.tuanStyle{
+	background: url(../image/8.411.png) no-repeat;
+}
+/*开囤年货*/
+.g_icon{
+	cursor: pointer;
+	left: 6px;
+    margin-left: 67px;
+    background-position: 0 0;
+    padding-left: 7px;
+    background-image: url(../image/bubble.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 34px;
+    height: 28px;
+    top: 2px;
+     font: 12px/100% arial,"Hiragino Sans GB","Hiragino Sans GB W3",\5b8b\4f53;
+    overflow: hidden;
+    word-wrap: break-word;
+    padding-top: 2px;
+    padding-right: 2px;
+    line-height: 13px;
+    _line-height: 14px;
+    vertical-align: top;
+    color: #ff3c00;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.wf-line{
+	position: relative;
+    z-index: 80;
+    clear: both;
+    margin: 0 14px 0 14px;
+    border-bottom: 1px solid #f9f9f9;
+    top: 0;
+}
+/*58同城*/
+.tcstyle{
+	background: url("../image/331a6bbc2154a554b62b5bfce2d5cbd6.png") no-repeat;
+}
+/*房天下*/
+.ftxStyle{
+	background: url("../image/soufangicon20150925.png") no-repeat;
+}
+/*携程旅行网*/
+.xctraStyle{
+	background: url("../image/xiecheng20151019.png") no-repeat;
+}
+/*赶集网*/
+.gjStyle{
+	background: url("../image/b74a8a4247ffd56de2ebd7f9699d030a.png") no-repeat;
+}
+/*唯品会*/
+.vphStyle{
+	background: url("../image/e171303949d6123556e05c611ac1415d.png") no-repeat;
+}
+/*途牛旅游网*/
+.tnStyle{
+	background: url("../image/fad209ce80a17e253d657ad4341a6ae3.png") no-repeat;
+}
+/*苏宁手机馆*/
+.snStyle{
+	background: url("../image/9a5df41b7d0ffcd71d7c7658f17d2af8.png") no-repeat;
+}
+/*爱淘宝*/
+.atbStyle{
+	background: url("../image/db10eadfee84df1f48808232451ed5c0.png") no-repeat;
+}
+/*返程*/
+.returnroad{
+	background: url("../image/534c5adf15464e7d871078ab9702578d.png") no-repeat;
+}
+.r_icon{
+	left: 93px;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 34px;
+    height: 28px;
+    top: 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+/*推荐*/
+.tuijian-icon{
+	display: inline-block;
+    position: absolute;
+    left: 0;
+    bottom: 9px;
+    width: 22px;
+    height: 22px;
+    background: url(../image/new_index_icon.png) no-repeat -24px -42px;
+    z-index: 20;
+    cursor: pointer;
+}
+/*颜色切换*/
+.changeColor{
+	position: absolute;
+    right: 150px;
+    top: 35px;
+}
+.changeColor input{
+	width: 20px;
+	height: 20px;
+	border: 1px solid #ccc;
+	margin-left: 3px;
+}
+.changeRed{
+	background: red;
+}
+.changeYellow{
+	background: yellow;
+}
+.changeBlue{
+	background: blue;
+}
+.changeGreen{
+	background: green;
+}
+.tcgreen{
+	color: #0aa770;
+    text-decoration: none;
+}

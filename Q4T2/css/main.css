@@ -1,0 +1,35 @@
+ * {
+     margin: 0;
+     padding: 0;
+ }
+ 
+ body {
+     background: #ccc;
+     position: relative;
+ }
+ 
+ [class*="col-"] {
+     margin-top: 15px;
+     padding-top: 15px;
+     padding-bottom: 15px;
+     background-color: #F8F8F8;
+     border: 1px solid #ddd;
+ }
+ 
+ .t-head {
+     background-color: #F8F8F8;
+ }
+ 
+ @media only screen and (max-width:768px) {
+    /*menu下拉菜单位置*/
+     .t-menu {
+         position: absolute;
+         display: inline-block;
+         right: 20px;
+         margin-top: -45px;
+     }
+     /*左边菜单隐藏*/
+     .left-div {
+         display: none;
+     }
+ }

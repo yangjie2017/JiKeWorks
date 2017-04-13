@@ -1,0 +1,85 @@
+/*全局样式*/
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	min-width: 810px; /*注意设置body最小宽度，以免页面收缩导致中间内容部分隐藏*/
+}
+/*头部*/
+header{
+	height: 50px;
+	background-color: #EBE9ED;
+	line-height: 50px;
+	padding-left: 3px;
+}
+/*中间*/
+article{
+	margin-top: 5px;
+	overflow: hidden;
+}
+/*尾部*/
+footer{
+	margin-top: 5px;
+	height: 25px;
+	width: 100%;
+	background-color: #EBE9ED;
+	text-align: center;
+	line-height: 25px;
+
+	/*position:fixed;
+	bottom:0;固定在底部*/
+}
+/*中间部分 -左边*/
+article #left{
+	padding-top: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: #EBE9ED;
+	float: left;
+	width: 180px;
+	margin-left: -100%;
+
+	margin-bottom: -9999px;/*设置中间部分左中右三块内容的高度*/
+	padding-bottom: 9999px;
+}
+/*中间部分 右边*/
+article #right{
+	background-color: #EBE9ED;
+	float: left;
+	padding-top: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-indent: 1em;  /*设置缩进*/
+	width:180px;
+	margin-left: -200px;
+
+	margin-bottom: -9999px;
+	padding-bottom: 9999px;
+}
+/*中间部分 中间*/
+article .middle{
+	width: 100%;
+	float: left; /*浮动元素，并具有块级元素的特性*/
+
+	margin-bottom: -9999px;
+	padding-bottom: 9999px;
+}
+/*中间部分 对于不使用relative的处理（实现双飞翼布局）*/
+.inner{
+	margin-left: 205px; 
+	margin-right: 205px;
+	background-color: #EBE9ED;
+
+	padding-top: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+p{
+	font-size: 13px;
+	line-height: 20px;
+}
+.inner p{
+	text-indent: 2em;
+	line-height: 25px;
+}

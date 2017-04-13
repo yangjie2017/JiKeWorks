@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>简易计算器</title>
+  <link href="css/calculator.css" rel="stylesheet" type="text/css" />
+  <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+  <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+ </head>
+ <body>
+	<div class="container">
+		<!--<form class="form-inline" method="post" action="#">-->
+			<h3>简易计算器</h3>
+			
+			 <label for="Num1">请输入第一个数：</label>
+			 <input type="text" id="Num1" placeholder="请输入第一个数" >
+			 <br/>
+		
+			 <!--<label for="Symbol">&nbsp;&nbsp;&nbsp;&nbsp;请输入运算符：</label>
+			 <input type="text" id="Symbol" placeholder="请输入运算符" >-->
+			
+			<label for="Symbol">&nbsp;&nbsp;&nbsp;&nbsp;请选择运算符：</label>
+		     <select id="Symbol">
+				<option value="0">-请选择-</option>
+				<option value="+">+</option>
+				<option value="-">-</option>
+				<option value="*">*</option>
+				<option value="/">/</option>
+				<option value="%">%</option>
+			 </select>
+			 <br/>
+			
+			 <label for="Num2">请输入第二个数：</label>
+			 <input type="text" id="Num2" placeholder="请输入第二个数" >
+		   
+			<br>
+		  <button type="submit" onclick="returnResult()">&nbsp;&nbsp;提 交&nbsp;&nbsp;</button>
+		<!--</form>-->
+		<br>
+		<span id="c_result"></span>
+	</div>
+	<!--js文件放置在文档结尾,不影响html的正常渲染-->
+	<script src="js/calculator.js" type="text/javascript"></script>
+ </body>
+</html>

@@ -1,0 +1,105 @@
+#container {
+  width: 450px;
+  height: 320px;
+  border: 1px solid #555;
+}
+#title {
+  background: #5d9451;
+  /*下一站*/
+  /*票价提示*/
+}
+#title .number {
+  height: 100px;
+  width: 135px;
+  font-size: 4em;
+  color: #FFFFFF;
+  display: inline-block;
+  float: left;
+  text-align: center;
+  font-family: 'Kozuka Mincho Pro B';
+}
+#title .StationMess {
+  height: 100px;
+  width: 307px;
+  display: inline-block;
+  font-size: 10px;
+}
+#title .nextStation {
+  font-size: 20px;
+  font-weight: bold;
+}
+#title .priceMess {
+  font-size: 8px;
+}
+/*箭头上半部分 包括箭头*/
+.PartOne {
+  padding-top: 20px;
+  width: 450px;
+  height: 20px;
+  position: relative;
+}
+.PartOne .triangle {
+  margin-left: 10px;
+  width: 0;
+  height: 0;
+  border-left: 60px solid transparent;
+  border-bottom: 20px solid red;
+  float: left;
+  display: inline-block;
+}
+.PartOne .triangleLine {
+  width: 360px;
+  height: 13px;
+  border-bottom: 7px solid red;
+  display: inline-block;
+}
+.PartOne .BusName {
+  position: absolute;
+  font-weight: bold;
+  margin-top: -30px;
+  margin-left: 80px;
+}
+.PartOne .Firset {
+  position: absolute;
+  margin-top: -26px;
+  margin-left: 200px;
+  font-size: 10px;
+}
+.PartOne .Last {
+  position: absolute;
+  margin-top: -26px;
+  margin-left: 330px;
+  font-size: 10px;
+}
+/*箭头下半部分 所有站名*/
+ul {
+  width: 400px;
+  height: 90px;
+  margin-left: -20px;
+  margin-top: 5px;
+  list-style: none;
+  display: flex;
+  display: -webkit-flex;
+  justify-content: space-between;
+  -webkit-justify-content: space-between;
+  -moz-justify-content: space-between;
+  /*当前站*/
+  /*末站*/
+  /*已经经过的站*/
+}
+ul li {
+  font-size: 15px;
+  width: 10px;
+  text-align: center;
+  height: 80px;
+  font-weight: bold;
+}
+ul .currentStation {
+  color: #FF3030;
+}
+ul .LastStation {
+  color: #4169E1;
+}
+ul .go {
+  color: #CCCCCC;
+}

@@ -1,0 +1,22 @@
+*{
+	margin:0;
+	padding:0
+}
+.container{
+	width:500px;
+	height:300px;
+	background:#eee;
+	margin:10px auto;
+	text-align:center;
+	padding-top:20px;
+}
+/*输入框样式*/
+.scoretext{
+	width: 35% !important;
+    margin-left: 32%;
+}
+
+/*查询结果样式*/
+span{
+	color:red;
+}

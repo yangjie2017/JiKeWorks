@@ -1,0 +1,59 @@
+.container
+{
+	position:absolute;
+	top:50%;
+	left:50%; 
+	margin-left:-153px;
+	margin-top:-153px; /*设置容器在页面居中显示*/
+
+	/*width:306px;
+	height:306px;
+	border:1px solid red;*/
+}
+div{
+	height:100px;
+	width:100px; /*设置所有DIV宽高，因样式优先级DIV(.container)不受影响*/
+}
+.up{
+	background-color:#2c689a;
+	position:absolute;
+	margin-top:0px;
+	margin-left:103px;
+	box-shadow: 0 0 3px #000; 
+}
+.left{
+	background-color:#593076;
+	position:absolute;
+	margin-top:103px;
+	margin-left:0px;
+	box-shadow: 0 0 3px #000;
+}	
+.middle{
+	background-color:#f4eef8;
+	position:absolute;
+	margin-top:103px;
+	margin-left:103px;
+	text-align:center; /*设置DIV内容水平居中*/
+	line-height:100px; /*行高=DIV的高度，方便设置内容垂直居中*/
+	box-shadow: 0 0 3px #000;
+}
+.right{
+	background-color:#2b8134;
+	position:absolute;
+	margin-top:103px;
+	margin-left:206px;
+	box-shadow: 0 0 3px #000;
+}
+.down{
+	background-color:#94272a;
+	position:absolute;
+	margin-top:206px;
+	margin-left:103px;
+	box-shadow: 0 0 3px #000;
+}
+img
+{
+	width:64px;
+	height:64px;
+	vertical-align:middle; /*设置图片垂直居中*/
+}

@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>hao123首页换肤</title>
+<link href="css/hao123.css" rel="stylesheet" type="text/css" />
+ </head>
+ <body onload="loadSkinColor()">
+	<div id="container">
+		<!--头部-->
+		<div id="header">
+			<!--logo-->
+			<div class="logoImg"><a href="#"><img src="image/richanglogo168_24.png" /></a></div>
+			<!--设为首页-->
+			<div>
+			<a class="setIndex" href="#" id="SetIndex"><span class="js_text">设为首页</span></a>
+			</div>
+			<!--右侧列表-->
+			<div class="header-right">
+				<!--登录-->
+				<div class="loginlink"><i class="loginlink-icon"></i>登录</div>
+				<div class="loginlink">网盘</div>
+				<div class="loginlink">邮箱</div>
+				<div class="loginlink">浏览器</div>
+				<div class="loginlink">换肤</div>
+
+				<a href="#" id="rightnew_link"><div class="rightnew" id="rightnew"><i class="rightnew-icon"></i>首钢能否终结连败</div></a>
+			</div>
+		</div>
+		<div class="header-border"></div><!--头部底部的灰色长线-->
+ 		<!--搜索框部分-->
+		<div class="search-input">
+			<div class="search-input-content">
+				<a href="#"><i class="searchinput-icon"></i></a>
+				<div class="form-wrapper">
+					<form id="search-form" action="https://www.baidu.com/s" target="_bank">
+						<div id="search-all">
+							<a href="#" class="tabs-toggle">
+								<i class="arrow">展开</i>
+								<span class="tab-curr">网页</span>
+							</a>
+							<input type="text" class="searchinput" /><input type="submit" class="Searchbutton" value="">
+							<a class="hotword-hook" href="#"><span class="hot-num">5</span></a>
+						</div>
+					</form>
+				</div>
+				<div class="changeColor">
+					<input type="button" name="" value="红" class="changeRed" onclick="chSetIndexColor('red')">
+					<input type="button" name="" value="黄" class="changeYellow" onclick="chSetIndexColor('yellow')">
+					<input type="button" name="" value="蓝" class="changeBlue" onclick="chSetIndexColor('blue')">
+					<input type="button" name="" value="蓝" class="changeGreen" onclick="chSetIndexColor('green')">
+				</div>
+			</div>
+		</div>
+		<!--搜索框下的查询列表-->
+		<div class="search-list">
+			<div class="hotSearch-box">
+				<ul>
+					<li class="title"><a href="#" class="seachtext hotSearch-link" title="热搜"></a></li>
+					<li class="text"><a href="#" class="seachtext">圆角画框批发</a></li>
+					<li class="text"><a href="#" class="seachtext">荷元素快餐加盟</a></li>
+					<li class="text"><a href="#" class="seachtext">欧蒙元素加盟</a></li>
+					<li class="text"><a href="#" class="seachtext">表面元素分析</a></li>
+					<li class="text"><a href="#" class="seachtext">百合网登录页面</a></li>
+					<li class="text"><a href="#" class="seachtext">欧蒙元素彩晶膜</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<!--主体导航部分-->
+		<div id="hao123-main">
+			<!--首页等导航-->
+			<div class="main-menus">
+				<ul>
+					<li class="menu first"><a class="link active"><span class="menu-title">首页</span></a></li>
+					<li class="menu"><a class="link link-hover"><span class="menu-title">电视剧</span><span class="menu-split"></span></a></li>
+					<li class="menu"><a class="link link-hover"><span class="menu-title">最新电影</span><span class="menu-split"></span></a></li>
+					<li class="menu"><a class="link link-hover"><span class="menu-title">新闻头条</span><span class="menu-split"></span></a></li>
+					<li class="menu"><a class="link link-hover"><span class="menu-title">八卦娱乐</span><span class="menu-split"></span></a></li>
+					<li class="menu"><a class="link link-hover"><span class="menu-title">军事热点</span><span class="menu-split"></span></a></li>
+					<li class="menu"><a class="link link-hover"><span class="menu-title">热门游戏</span><span class="menu-split"></span></a></li>
+					<li class="menu"><a class="link link-hover"><span class="menu-title">小游戏</span><span class="menu-split"></span></a></li>
+					<li class="menu"><a class="link link-hover"><span class="menu-title">今日特价</span><span class="menu-split"></span></a></li>
+					<li class="menu"><a class="link link-hover"><span class="menu-title">特价旅游</span><span class="menu-split"></span></a></li>
+					<li class="menu"><a class="link link-hover"><span class="menu-title">上海生活</span><span class="menu-split"></span></a></li>
+				</ul>
+			</div>
+			<!--权威推荐-->
+			<div class="govSiteTop">
+				<div class="govsite-inner">
+					<span class="titel g-ib" id="qw_intr">权威推荐</span>
+					<span class="titel-line g-ib"></span>
+
+					<div class="govsite-item g-ib"><a class="govsite-link g-ib" href="#">人民网</a></div>
+					<div class="govsite-item g-ib"><a class="govsite-link g-ib" href="#">新华网</a></div>
+					<div class="govsite-item g-ib"><a class="govsite-link g-ib" href="#">央视网</a></div>
+					<div class="govsite-item g-ib"><a class="govsite-link g-ib" href="#">国际在线</a></div>
+					<div class="govsite-item g-ib"><a class="govsite-link g-ib" href="#">中国日报网</a></div>
+					<div class="govsite-item g-ib"><a class="govsite-link g-ib" href="#">中国网</a></div>
+					<div class="govsite-item g-ib"><a class="govsite-link g-ib" href="#">中国经济网</a></div>
+					<div class="govsite-item g-ib"><a class="govsite-link g-ib" href="#">光明网</a></div>
+					<div class="govsite-item g-ib"><a class="govsite-link g-ib" href="#">央广网</a></div>
+					<div class="govsite-item g-ib"><a class="govsite-link g-ib" href="#">求是网</a></div>
+					<div class="govsite-item g-ib"><a class="govsite-link g-ib" href="#">中国青年网</a></div>
+					<div class="govsite-item g-ib"><a class="govsite-link g-ib" href="#">中国网信网</a></div>
+				</div>
+			</div>
+
+			<!--具体内容-->
+			<div class="layout-content">
+				<!--左边导航-->
+				<div class="layout-content-slider">
+					<div class="box-startbar">
+						<ul>
+							<li class="startbar-list">
+								<div><i class="star-icon i-tv"></i><a href="#" class="tv">电视剧</a>
+									<span class="split-tv-zy">|</span><a href="#" class="zongyi">综艺</a>
+									<i class="star-icon i-game"></i><a href="#" class="ge">游戏</a>
+									<span class="split-ge-sge">|</span><a href="#" class="sge">小游戏</a>
+								</div>
+							</li>
+							<li class="startbar-list">
+								<div><i class="star-icon i-movie"></i><a href="#" class="mov">电影</a>
+									<span class="split-mov-line">|</span><a href="#" class="line">直播</a>
+									<i class="star-icon i-comic"></i><a href="#" class="pic">动画</a>
+									<span class="split-pic-ani">|</span><a href="#" class="ani">动漫</a>
+								</div>
+							</li>
+							<li class="startbar-list">
+								<div><i class="star-icon i-toutiao"></i><a href="#" class="news">新闻</a>
+									<span class="split-news-junshi">|</span><a href="#" class="junshi">军事</a>
+									<i class="star-icon i-travel"></i><a href="#" class="tra">旅游</a>
+									<span class="split-tra-mu">|</span><a href="#" class="mu">音乐</a>
+								</div>
+							</li>
+							<li class="startbar-list">
+								<div><i class="star-icon i-caipiao"></i><a href="#" class="cp">彩票</a>
+									<span class="split-cp-jc">|</span><a href="#" class="jc">竞猜</a>
+									<i class="star-icon i-gaoxiao"></i><a href="#" class="gx">搞笑</a>
+									<span class="split-gx-xs">|</span><a href="#" class="xs">小说</a>
+								</div>
+							</li>
+							<li class="startbar-list">
+								<div><i class="star-icon i-tuan"></i><a href="#" class="tj">特价</a>
+									<span class="split-tj-sj">|</span><a href="#" class="sj">手机</a>
+									<i class="star-icon i-music"></i><a href="#" class="gp">股票</a>
+									<span class="split-gp-lc">|</span><a href="#" class="lc">理财</a>
+								</div>
+							</li>
+						</ul>
+					</div>
+
+					<div class="servicetab-bd">
+						<div class="box-startols">
+							<i class="startools-icon"></i>
+							<div class="startools-container">
+								<div class="startools-list">
+									<a href="#" class="g-ib startools-link">天气</a>
+									<a href="#" class="g-ib startools-link">星座</a>
+									<a href="#" class="g-ib startools-link">网盘</a>
+									<a href="#" class="g-ib startools-link">快递</a>
+									<a href="#" class="g-ib startools-link">违章</a>
+									<a href="#" class="g-ib startools-link">万年历</a>
+									<a href="#" class="g-ib startools-link">地图</a>
+									<a href="#" class="g-ib startools-link">邮箱</a>
+									<a href="#" class="g-ib startools-link">火车票</a>
+									<a href="#" class="g-ib startools-link">更多</a>
+								</div>
+							</div>
+							<a href="#" class="startools-arrow"></a>
+						</div>
+					</div>
+				</div>
+				<!--右边导航-->
+				<div class="layout-content-ct">
+					<div class="g_clr">
+						<div id="box-site">
+							<div class="js_manage" title="添加网址"></div>
+							<ul class="js_bd">
+								<li class="js_site-item g-ib">
+									<a href="#" class="imgstyle baidustyle">百度</a>&nbsp;•&nbsp;<a href="#">贴吧</a>
+								</li>
+								<li class="js_site-item g-ib">
+									<a href="#" class="imgstyle sinastyle">新浪</a>&nbsp;•&nbsp;<a href="#">微博</a></li>
+								<li class="js_site-item g-ib">
+									<a href="#" class="imgstyle sohostyle">搜狐</a>&nbsp;•&nbsp;<a href="#">热点</a></li>
+								<li class="js_site-item g-ib"><a href="#" class="imgstyle tengxunstyle">腾&nbsp;&nbsp;讯</a></li>
+								<li class="js_site-item g-ib"><a href="#" class="imgstyle wystyle">网&nbsp;&nbsp;易</a></li>
+								<li class="js_site-item g-ib"><a href="#" class="imgstyle yukustyle">优酷网</a></li>
+								<li class="js_site-item g-ib"><a href="#" class="imgstyle tmallstyle">天&nbsp;&nbsp;猫
+										<i class="g_icon">开囤年货</i>
+									</a>
+								</li>
+								<li class="js_site-item g-ib"><a href="#" class="imgstyle fhstyle">凤 凰 网</a></li>
+								<li class="js_site-item g-ib"><a href="#" class="imgstyle taobaostyle">淘 宝 网</a></li>
+								<li class="js_site-item g-ib"><a href="#" class="imgstyle">
+									<span class="tmnhStyle"><img src="image/3029486bf379c9ba060e3f54871617cf.gif"></span>
+									天猫年货节</a></li>
+								<li class="js_site-item g-ib"><a href="#" class="imgstyle gameStyle">4399游戏</a></li>
+								<li class="js_site-item g-ib"><a href="#" class="imgstyle hao123Mov">hao123影视</a></li>
+								<li class="js_site-item g-ib"><a href="#" class="imgstyle jdStyle">京东商城</a></li>
+								<li class="js_site-item g-ib"><a href="#" class="imgstyle snStyle">苏宁易购</a></li>
+								<li class="js_site-item g-ib"><a href="#" class="imgstyle todayStyle">今日特价</a></li>
+								<li class="js_site-item g-ib"><a href="#" class="imgstyle tyStyle">体育</a>&nbsp;•&nbsp;<a href="#">NBA</a></li>
+								<li class="js_site-item g-ib"><a href="#" class="imgstyle carStyle">汽车之家</a></li>
+								<li class="js_site-item g-ib"><a href="#" class="imgstyle tuanStyle">聚 划 算</a></li>
+							</ul>
+						</div>
+
+						<div class="box-famousesite">
+							<div class="wf-line"></div>
+							<div id="box-site">
+								<span class="tuijian-icon"></span>
+								<ul class="js_bd">
+									<li class="js_site-item g-ib"><a href="#">东方财富</a>&nbsp;•&nbsp;<a href="#">理财</a></li>
+									<li class="js_site-item g-ib"><a href="#" class="imgstyle tcstyle">58 同 城</a></li>
+									<li class="js_site-item g-ib"><a href="#" class="imgstyle ftxStyle">房 天 下</a></li>
+									<li class="js_site-item g-ib"><a href="#" class="imgstyle xctraStyle">携程旅行网</a></li>
+									<li class="js_site-item g-ib"><a href="#">37 游 戏</a></li>
+									<li class="js_site-item g-ib"><a href="#">12306</a>&nbsp;•&nbsp;<a href="#">抢票</a>
+										<a href="#"><i class="r_icon returnroad"></i></a></li>
+									<li class="js_site-item g-ib"><a href="#">世纪佳缘</a></li>
+									<li class="js_site-item g-ib"><a href="#" class="imgstyle gjStyle">赶 集 网</a></li>
+									<li class="js_site-item g-ib"><a href="#">免费游戏</a></li>
+									<li class="js_site-item g-ib"><a href="#">哔哩哔哩</a></li>
+									<li class="js_site-item g-ib"><a href="#">百度地图</a></li>
+									<li class="js_site-item g-ib"><a href="#">萌主页</a>&nbsp;•&nbsp;<a href="#">动漫</a></li>
+									<li class="js_site-item g-ib"><a href="#" class="imgstyle vphStyle">唯 品 会</a></li>
+									<li class="js_site-item g-ib"><a href="#">斗鱼TV</a></li>
+									<li class="js_site-item g-ib"><a href="#" class="imgstyle tnStyle">途牛旅游网</a></li>
+									<li class="js_site-item g-ib"><a href="#">hao123浏览器</a></li>
+									<li class="js_site-item g-ib"><a href="#">头条新闻</a></li>
+									<li class="js_site-item g-ib"><a href="#">直播吧</a>&nbsp;•&nbsp;<a href="#">开服表</a></li>
+									<li class="js_site-item g-ib"><a href="#" class="imgstyle snStyle tcgreen">苏宁手机馆</a></li>
+									<li class="js_site-item g-ib"><a href="#" class="tcgreen">彩票开奖</a></li>
+									<li class="js_site-item g-ib"><a href="#" class="tcgreen">亚 马 逊</a></li>
+									<li class="js_site-item g-ib"><a href="#" class="tcgreen">hao 到 家<i class="g_icon">开囤年货</i></a></li>
+									<li class="js_site-item g-ib"><a href="#" class="imgstyle atbStyle tcgreen">爱 淘 宝</a></li>
+									<li class="js_site-item g-ib"><a href="#" class="tcgreen">购物</a>&nbsp;•&nbsp;<a href="#" class="tcgreen">手机</a></li>
+								</ul>
+							</div>
+						</div>
+
+						<div class="box-famousesite">
+							<div class="wf-line"></div>
+							<div id="box-site">
+								<ul class="js_bd">
+									<li class="js_site-item g-ib"><a href="#">新浪新闻</a></li>
+									<li class="js_site-item g-ib"><a href="#">中华军事</a></li>
+									<li class="js_site-item g-ib"><a href="#">智联招聘</a></li>
+									<li class="js_site-item g-ib"><a href="#">前程无忧</a></li>
+									<li class="js_site-item g-ib"><a href="#">起点中文网</a></li>
+									<li class="js_site-item g-ib"><a href="#">凤凰军事</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+<script type="text/javascript" src="js/default.js"></script>
+
+ </body>
+</html>
+

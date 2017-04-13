@@ -1,0 +1,127 @@
+*{
+	margin:0;
+	padding:0;
+}
+h2{
+	text-align:center;
+}
+
+/*容器*/
+.box{
+	width:312px;
+	height:312px;
+	margin:150px auto;
+
+	/*-webkit-perspective:600; 透视距离*/
+	/*-webkit-perspective-origin:25% 80px; 透视方向*/
+
+	-webkit-transform-style: preserve-3d; 
+
+	-webkit-animation: animations 3s ease-in-out infinite; 
+	-webkit-transform-origin:156px 156px 0; /*动画旋转基准点 */  
+}
+
+@-webkit-keyframes animations {  
+    0%{-webkit-transform:rotateZ(270deg); }  
+    25%{-webkit-transform:rotateY(180deg); }  
+    50%{-webkit-transform:rotateZ(-270deg);}  
+    75%{-webkit-transform:rotateY(-180deg);}  
+}  
+@-moz-keyframes animations {  
+    0%{-moz-transform:rotateZ(270deg); }  
+    25%{-moz-transform:rotateY(180deg); }  
+    50%{-moz-transform:rotateZ(-270deg);}  
+    75%{-moz-transform:rotateY(-180deg);}  
+}  
+@-o-keyframes animations {  
+    0%{-o-transform:rotateZ(270deg); }  
+    25%{-o-transform:rotateY(180deg); }  
+    50%{-o-transform:rotateZ(-270deg);}  
+    75%{-o-transform:rotateY(-180deg);}  
+}  
+@keyframes animations {  
+    0%{transform:rotateZ(270deg); }  
+    25%{transform:rotateY(180deg); }  
+    50%{transform:rotateZ(-270deg);}  
+    75%{transform:rotateY(-180deg);}  
+}  
+
+.box div{
+	position: absolute;  
+	height:312px;
+	width:312px;
+	float:left;
+	border:3px solid #000;
+	
+}
+
+/*六个面的九个小方格*/
+.one div{
+	height:100px;
+	width:100px;
+	background-color:#8A2BE2;
+	border:2px solid #000;
+	border-radius:5px;
+	position: relative;  
+}
+
+.two div{
+	height:100px;
+	width:100px;
+	background-color: #04EC99;
+	border:2px solid #000;
+	border-radius:5px;
+	position: relative;  
+}
+.three div{
+	height:100px;
+	width:100px;
+	background-color:#F4F871;
+	border:2px solid #000;
+	border-radius:5px;
+	position: relative;
+}
+.four div{
+	height:100px;
+	width:100px;
+	background-color:#7FB6FF;
+	border:2px solid #000;
+	border-radius:5px;
+	position: relative; 
+}
+.five div{
+	height:100px;
+	width:100px;
+	background-color:#FF7F8F;
+	border:2px solid #000;
+	border-radius:5px;
+	position: relative; 
+}
+.six div{
+	height:100px;
+	width:100px;
+	background-color:#6FFFFA;
+	border:2px solid #000;
+	border-radius:5px;
+	position: relative;
+}
+
+/*处理六个面的位置*/
+.one{
+	-webkit-transform:translateZ(156px); /*往前移动156px*/
+}
+.two{
+	-webkit-transform:rotateX(-90deg) translateZ(156px); /*沿X轴旋转*/
+}
+.three{
+	-webkit-transform:rotateX(90deg) translateZ(156px);
+}
+.four{
+	-webkit-transform:translateZ(-156px);/*往后移动156px*/
+}
+.five{
+	-webkit-transform:rotateY(-90deg) translateZ(156px); /*沿Y轴旋转*/
+}
+.six{
+	-webkit-transform:rotateY(90deg) translateZ(156px);
+}

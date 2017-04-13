@@ -1,0 +1,334 @@
+﻿/*通配符 全局样式*/
+*{
+	margin: 0;
+	padding:0;
+}
+/*页面主体*/
+#home_main{
+	width:100%;
+	height: 100%;
+	min-width: 810px;
+	min-height: 580px;
+	position: relative;
+}
+/*右上横向列表*/
+#ul
+{
+	width: 480px;
+	z-index: 1;
+	position: absolute;
+	right: 0;
+	top: 0;
+	margin: 19px 0 5px;
+	float:right;
+}
+/*右上横向列表 样式设置*/
+#ul a.mnav,#ul a.mnav:visited
+{
+	float: left;
+	color: #333;
+	font-weight:700;
+	line-height: 24px;
+	margin-left: 20px;
+	font-size: 13px;
+	text-decoration: underline;
+}
+#ul a.lb,#ul a.lb:visited
+{
+	display: inline-block;
+	float: left;
+	color: #333;
+	line-height: 24px;
+	margin-left: 20px;
+	font-size: 13px;
+	text-decoration: underline;
+}
+
+#ul a.pf,#ul a.pf:visited
+{
+	display: inline-block;
+	float: left;
+	color: #333;
+	line-height: 24px;
+	margin-left: 20px;
+	font-size: 13px;
+	overflow: hidden;
+	text-decoration: underline;
+}
+
+#ul a.bri,#ul a.bri:visited
+{
+	display: inline-block;
+	position: absolute;
+	right: 10px;
+	width: 60px;
+	height: 23px;
+	float: left;
+	color: #fff;
+	background: #38f;
+	line-height: 24px;
+	font-size: 13px;
+	text-align: center;
+	overflow: hidden;
+	margin-bottom: 1px solid #38f;
+	margin-left: 19px;
+	margin-right: 2px;
+	text-decoration:none;
+	display: block;
+}
+#ul a.mnav:hover,#ul a.lb:hover,#ul a.pf:hover{
+	color: blue;
+}
+
+/*页面中间 图片logo及搜索框部分*/
+#bodyinfo{
+	position: relative;
+	top: 50px;
+	padding: 0;
+}
+/*搜索框默认样式*/
+#kw{
+	width: 500px;
+	height: 13px;
+	padding:0;
+	border: 1px solid #ccc;
+	outline: 0;
+	padding-left: 5px;
+	float: left;
+
+	font-size: 13px;
+	padding: 10px 0;
+}
+/*搜索框鼠标悬浮样式*/
+#kw:hover{
+	border: 1px solid #333;
+}
+/*搜索框获得焦点样式*/
+#kw:focus{
+	border: 1px solid #3385ff;
+	border: 1px solid #3385ff\9;
+	+border: 1px solid #3385ff;
+}
+
++html #kw:focus{
+	border: 1px solid #3385ff;
+} 
+
+*html #kw:focus { 
+    border: 1px solid #3385ff;
+} 
+
+/*搜索按钮样式*/
+.s_btn{
+	margin-left: 0;
+	width: 100px;
+	height: 35px;
+	color: #fff;
+	font-size: 15px;
+	+font-size: 15px; /*IE6,7字体大小设置*/
+	background-color: #3385ff;
+	border: 0;
+	cursor: pointer;
+	bottom: 0;
+	padding-top: 0;
+	float: left;
+}
+
+@-moz-document url-prefix(){
+	.s_btn{
+		font-size: 15px;  /*firefox字体大小设置*/
+		}
+}
+
+/*搜索按钮悬浮变色*/
+.s_btn:hover{
+	background-color: #6495ED;
+}
+
+*html .s_btn{
+	font-size: 15px;
+}
+
+*html .s_btn:hover{ 
+  background-color: #6495ED;
+} 
+
+p{
+	display: block;
+}
+#main
+{
+	padding-top: 30px;
+	text-align:center;
+	width: 610px;
+	margin: 0 auto;
+	position: relative;
+}
+
+/*底部*/
+#footer{
+	width: 600px;
+	height: 120px;
+	margin:290px auto 0 auto;
+	position: absolute;
+	left: 50%;
+	margin-left:-300px;
+	bottom: 10px;
+
+	*margin-bottom: 50px;
+}
+.qrcode_item_1{
+	float: left;
+}
+/*二维码样式*/
+.qr_img
+{
+	float: left;
+	width: 60px;
+	height: 60px;
+}
+/*二维码旁边的文字样式*/
+.qr_text{
+	float: left;
+	color: #999;
+	padding-top: 15px;
+	line-height: 20px;
+	margin: 0 0 0 5px;
+	font-size: 13px;
+
+}
+#qrcode.qr_text p{
+	text-align: center;
+}
+#qrcode.qr_text b{
+	color: #666;
+	font-weight: 700;
+}
+
+/*底部右边文字显示*/
+#f_style, a.a_footer
+{
+	padding-top: 5px;
+	font-size: 12px;
+	line-height: 20px;
+	color: #999;
+	border: 0;
+}
+/*搜索框右边的小图标*/
+.huatong-btn{
+	z-index: 1;
+	position: absolute;
+	right: 135px;
+	top:190px;
+	height: 20px;
+	width: 30px;
+	background: #fff url("../img/huatong2.png") no-repeat;
+	cursor:pointer;
+}
+.soutu-btn{
+	z-index: 1;
+	position: absolute;
+	right: 110px;
+	top:195px;
+	margin-top: -8px;
+	height: 20px;
+	width: 30px;
+	background: #fff url("../img/soutu.png") no-repeat;
+	cursor:pointer;
+}
+/*更多产品*/
+.more{
+  	display: inline;
+}
+
+.more ul{
+	margin: 0;
+	padding: 0;
+	width: 70px;
+	float: right;
+	margin-top: 23px;
+}
+.more ul span{
+	display: block; 
+	width: 40px; 
+	height: 35px; 
+	background-image: url("../img/rightsides_01.png"); 
+	margin: 10px auto 0;
+}
+.more ul{
+	border-width: 0 1px 1px; 
+	border-style: solid; 
+	border-color: #e4e3eb; 
+	background-color: #f9f9f9; 
+	display: none;
+	list-style: none;
+}
+.more ul li{
+	width: 50px; 
+	text-align: center; 
+	margin: 0 auto; 
+	font-size: 12px;
+}
+.more ul li a{
+	text-decoration: none; 
+	border-top: 2px solid #f3f3f3; 
+	display: inline-block;color: gray;
+}
+.more ul .c1{
+	background-position: 2px 0;
+}
+.more ul .c2{
+	background-position: -36px 0;
+}
+.more ul .c3{
+	background-position: -72px 0;
+}
+.more ul .c4{
+	background-position: -112px 0;
+}
+.more ul .c5{
+	background-position: -150px 0;
+}
+.more ul .c6{
+	background-position: -187px 0;
+}
+
+.more:hover{
+	background-color: #f9f9f9; 
+	color: black;
+}
+.more:hover ul{
+	display: block;
+}
+.more ul li a:hover{
+	text-decoration: underline;
+}
+
+.c7{
+	line-height: 10px;
+	width: 60px;
+}
+/*底部第一个DIV 最左边的二维码*/
+.footer-div-1{
+	width:22% ;
+	height:60px;
+	margin:40px 0;
+}
+/*底部第二个DIV 中间的二维码*/
+.footer-div-2
+{
+	width:22% ;
+	height:60px; 
+	margin:-105px 0 0 140px;
+}
+/*底部第三个DIV 右边的文字*/
+.footer-div-3{
+	width:56% ;
+	height:60px ;
+	margin:-65px 0 0 280px; 
+}
+
+/*ie9环境下 图片会显示出边框，设置图片边框为0*/
+#remark img{
+	border: 0;
+}

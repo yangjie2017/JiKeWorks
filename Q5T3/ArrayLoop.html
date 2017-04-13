@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>数组循环</title><!--http://www.educity.cn/wenda/574859.html-->
+ </head>
+ <body>
+ <script type="text/javascript">
+	function arrayLoop(){
+		var arrayList=['a','x','b','d','m','a','k','m','p','j','a'];
+		
+		var _count=new Array(); //出现的次数
+		var _site={}; //出现的下标
+		arrayList.forEach(function(str,index){  //str 数组中的字符，index 字符的下标
+			//document.write(str +index +"\t");  
+			if(_count[str])
+			{
+				_count[str]++;  //次数+1
+				_site[str]+=","+index;
+			}else{
+				_count[str]=1; //第一次次数为1
+				_site[str]=index;//记录第一次出现的下标
+			}
+		})
+	
+		/*for(var i in _count)  
+		{
+			document.write(i+":"+_count[i] +"\t ");  
+		}
+		document.write("<br/>"); 
+
+		for(var i in _site)  
+		{
+			document.write(i+":"+_site[i] +"\t");  
+		}
+		document.write("<br/>"); */
+
+		var num_max=0;  //设置最大次数为0
+		var str_num=null;
+		for(var j in _count)  
+		{
+			if(_count[j]>num_max) //比较出现的次数与最大次数
+			{
+				num_max=_count[j]; 
+				str_num=j; //j为数组中出现次数最多的字符
+			}
+		}
+		document.write("数组："+arrayList+"<br/>");
+		document.write("数组中出现最多的字符："+str_num+"<br/>"); 
+		document.write("出现的位置是:"+_site[str_num]); 
+	}
+
+	arrayLoop();
+
+  </script>
+ </body>
+</html>

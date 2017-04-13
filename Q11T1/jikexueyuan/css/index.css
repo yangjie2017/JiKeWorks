@@ -1,0 +1,1699 @@
+/*全局样式*/
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  border: 0 none;
+}
+/*头部样式*/
+.header {
+  height: 60px;
+  border: 1px solid #ececec;
+  background: #fff;
+  /*头部-主体*/
+  /*导航*/
+  /*右边小图标整体*/
+}
+.header .header-main {
+  margin: 0 auto;
+  width: 1000px;
+  height: 60px;
+  line-height: 60px;
+  /*logo图片*/
+}
+.header .header-main img {
+  width: 109px;
+  height: 40px;
+  border: 0 none;
+  /*设置图片无边框样式*/
+  padding-bottom: 10px;
+}
+.header nav {
+  height: 60px;
+  display: inline-block;
+}
+.header nav ul {
+  list-style: none;
+  /*首页字体的样式*/
+  /*导航栏下的小菜单*/
+  /*职业学院*/
+  /*头部小图标旋转*/
+}
+.header nav ul li {
+  float: left;
+  margin-left: 50px;
+  font-size: 14px;
+  font-family: "Verdana,'Lantinghei SC','Hiragino Sans GB','Microsoft Yahei',Helvetica,arial,\5b8b\4f53,sans-serif";
+  /*首页列表-职业学院*/
+  /*首页列表-会员课程*/
+  /*首页列表-极客社区*/
+}
+.header nav ul li .page_1 {
+  width: 280px;
+  height: 295px;
+  background: #FFF;
+  position: absolute;
+  z-index: 5555;
+  margin-top: 1px;
+  display: none;
+  color: #555;
+}
+.header nav ul li .page_1 h3 {
+  margin: 10px 0;
+  padding: 0 15px;
+  background: #fafafa;
+  height: 28px;
+  line-height: 28px;
+  font-weight: 300;
+  font-size: 12px;
+  font-family: "Verdana,'Lantinghei SC','Hiragino Sans GB','Microsoft Yahei',Helvetica,arial,\5b8b\4f53,sans-serif";
+}
+.header nav ul li .page_1 a {
+  display: block;
+  font-weight: 300;
+  font-size: 12px;
+  font-family: "Verdana,'Lantinghei SC','Hiragino Sans GB','Microsoft Yahei',Helvetica,arial,\5b8b\4f53,sans-serif";
+  line-height: 30px;
+  padding-left: 45px;
+  text-decoration: none;
+  color: #555;
+}
+.header nav ul li .page_1 a:hover {
+  color: #35b558;
+}
+.header nav ul li .page_1 .page_web,
+.header nav ul li .page_1 .page_webchat,
+.header nav ul li .page_1 .page_python,
+.header nav ul li .page_1 .page_go,
+.header nav ul li .page_1 .page_ios {
+  width: 14px;
+  height: 14px;
+  display: inline-block;
+  position: absolute;
+  background: #CCC;
+  margin-left: -25px;
+  margin-top: 7px;
+}
+.header nav ul li .page_2 {
+  width: 280px;
+  height: 260px;
+  background: #FFF;
+  position: absolute;
+  z-index: 5555;
+  margin-top: 1px;
+  display: none;
+  padding-top: 15px;
+  /*会员课程列表下的小图标*/
+}
+.header nav ul li .page_2 a {
+  display: block;
+  font-weight: 300;
+  font-size: 12px;
+  font-family: "Verdana,'Lantinghei SC','Hiragino Sans GB','Microsoft Yahei',Helvetica,arial,\5b8b\4f53,sans-serif";
+  text-decoration: none;
+  height: 40px;
+  line-height: 40px;
+  color: #555;
+  padding-left: 24px;
+}
+.header nav ul li .page_2 a:hover {
+  color: #35b558;
+  background: #fafafa;
+}
+.header nav ul li .page_2 i {
+  background: url("../image/allicon.png") 0 0 no-repeat;
+  background-size: 64px 64px;
+  width: 14px;
+  height: 14px;
+  display: inline-block;
+  margin-right: 10px;
+}
+.header nav ul li .page_2 .page2_icon_1 {
+  background-position: 0 25px;
+}
+.header nav ul li .page_3 {
+  width: 280px;
+  height: 180px;
+  padding-top: 15px;
+  background: #FFF;
+  position: absolute;
+  z-index: 5555;
+  margin-top: 1px;
+  display: none;
+}
+.header nav ul li .page_3 a {
+  display: block;
+  font-weight: 300;
+  font-size: 12px;
+  font-family: "Verdana,'Lantinghei SC','Hiragino Sans GB','Microsoft Yahei',Helvetica,arial,\5b8b\4f53,sans-serif";
+  line-height: 30px;
+  text-decoration: none;
+  height: 40px;
+  line-height: 40px;
+  color: #555;
+  padding-left: 24px;
+}
+.header nav ul li .page_3 a:hover {
+  color: #35b558;
+  background: #fafafa;
+}
+.header nav ul li .page_3 i {
+  background: url("../image/allicon.png") 0 0 no-repeat;
+  background-size: 64px 64px;
+  width: 14px;
+  height: 14px;
+  display: inline-block;
+  margin-right: 10px;
+}
+.header nav ul li .page_2 span,
+.header nav ul li .page_3 span {
+  display: inline-block;
+  color: #ccc;
+  float: right;
+  padding-right: 14px;
+}
+.header nav ul .index-page a {
+  text-decoration: none;
+  color: #35b558;
+}
+.header nav ul .arrow-icon {
+  margin-bottom: 2px;
+  margin-left: 5px;
+  width: 8px;
+  height: 8px;
+  border-top: 1px solid #c1c1c1;
+  border-left: 1px solid #c1c1c1;
+  display: inline-block;
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+  -moz-transform: rotate(-135deg);
+  -ms-transform: rotate(-135deg);
+}
+.header nav ul .coll-1:hover,
+.header nav ul .coll-2:hover,
+.header nav ul .coll-3:hover {
+  color: #35b558;
+}
+.header nav ul .coll-1:hover .page_1 {
+  display: block;
+}
+.header nav ul .coll-1:hover .arrow-icon,
+.header nav ul .coll-2:hover .arrow-icon,
+.header nav ul .coll-3:hover .arrow-icon {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  animation: rotateimg 1s ease normal;
+  -webkit-animation: rotateimg 1s ease normal;
+  -moz-animation: rotateimg 1s ease normal;
+  -ms-animation: rotateimg 1s ease normal;
+}
+.header nav ul .coll-2:hover .page_2 {
+  display: block;
+}
+.header nav ul .coll-3:hover .page_3 {
+  display: block;
+}
+.header .header-right-icon {
+  float: right;
+  text-align: right;
+  width: 200px;
+  height: 60px;
+  margin-right: 10px;
+  /*搜索*/
+  /*扫描下载app*/
+  /*登录*/
+}
+.header .header-right-icon span {
+  height: 40px;
+  width: 17px;
+  display: inline-block;
+  margin-left: 25px;
+  cursor: pointer;
+  line-height: 60px;
+  margin-top: 20px;
+  position: relative;
+}
+.header .header-right-icon .icon-app-image {
+  width: 120px;
+  height: 160px;
+  position: relative;
+  z-index: 5555;
+  background: url(../image/heade-rwm.png) 0 0 no-repeat;
+  background-size: 120px 160px;
+  margin-top: 41px;
+  right: 47px;
+  display: none;
+}
+.header .header-right-icon .icon-app:hover .icon-app-image {
+  display: block;
+}
+.header .header-right-icon .icon-search {
+  background: url(../image/search-icon.png) 0 0 no-repeat;
+  background-size: 17px 17px;
+}
+.header .header-right-icon .icon-search:hover {
+  background: url(../image/search-icon2.png) 0 0 no-repeat;
+  background-size: 17px 17px;
+}
+.header .header-right-icon .icon-app {
+  background: url(../image/app-icon.png) 0 0 no-repeat;
+  background-size: 17px 17px;
+}
+.header .header-right-icon .icon-app:hover {
+  background: url(../image/app-icon2.png) 0 0 no-repeat;
+  background-size: 17px 17px;
+}
+.header .header-right-icon .icon-login {
+  background: url(../image/login-icon.png) 0 0 no-repeat;
+  background-size: 17px 17px;
+}
+.header .header-right-icon .icon-login a {
+  display: block;
+  font-weight: 300;
+  font-size: 12px;
+  font-family: "Verdana,'Lantinghei SC','Hiragino Sans GB','Microsoft Yahei',Helvetica,arial,\5b8b\4f53,sans-serif";
+  line-height: 30px;
+  text-decoration: none;
+  height: 40px;
+  line-height: 40px;
+  color: #555;
+}
+.header .header-right-icon .icon-login .icon-login-info {
+  background: #FFF;
+  width: 120px;
+  height: 195px;
+  position: absolute;
+  z-index: 5555;
+  margin-top: 41px;
+  right: -10px;
+  text-align: center;
+  display: none;
+}
+.header .header-right-icon .icon-login .icon-login-info a {
+  font-weight: 300;
+  font-size: 12px;
+  font-family: "Verdana,'Lantinghei SC','Hiragino Sans GB','Microsoft Yahei',Helvetica,arial,\5b8b\4f53,sans-serif";
+  text-decoration: none;
+  color: #555;
+}
+.header .header-right-icon .icon-login .icon-login-info a:hover {
+  color: #35b558;
+  display: block;
+}
+.header .header-right-icon .icon-login .icon-login-info a .log-regi {
+  display: inline-block;
+}
+.header .header-right-icon .icon-login:hover .icon-login-info {
+  display: block;
+}
+@keyframes rotateimg {
+  0% {
+    margin-bottom: 2px;
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+    -moz-transform: rotate(-135deg);
+    -ms-transform: rotate(-135deg);
+  }
+  10% {
+    margin-bottom: -2px;
+  }
+  100% {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+  }
+}
+@-webkit-keyframes rotateimg {
+  0% {
+    margin-bottom: 2px;
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+    -moz-transform: rotate(-135deg);
+    -ms-transform: rotate(-135deg);
+  }
+  10% {
+    margin-bottom: -2px;
+  }
+  100% {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+  }
+}
+@-moz-keyframes rotateimg {
+  0% {
+    margin-bottom: 2px;
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+    -moz-transform: rotate(-135deg);
+    -ms-transform: rotate(-135deg);
+  }
+  10% {
+    margin-bottom: -2px;
+  }
+  100% {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+  }
+}
+@-ms-keyframes rotateimg {
+  0% {
+    margin-bottom: 2px;
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+    -moz-transform: rotate(-135deg);
+    -ms-transform: rotate(-135deg);
+  }
+  10% {
+    margin-bottom: -2px;
+  }
+  100% {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+  }
+}
+/*主体部分*/
+body {
+  background: #F5F5F5;
+}
+.main {
+  width: 1000px;
+  position: relative;
+  margin: 0 auto;
+}
+.main-one {
+  width: 1000px;
+  height: 330px;
+  top: 20px;
+  position: relative;
+  /*轮播图*/
+  /*右侧登录信息部分*/
+  /*右侧小广告*/
+}
+.main-one .carouselFigure {
+  width: 750px;
+  height: 330px;
+  background: grey;
+  display: inline-block;
+  float: left;
+  border: 0 none;
+  position: relative;
+  overflow: hidden;
+  /*隐藏溢出的图片*/
+}
+.main-one .carouselFigure .pic {
+  width: 3000px;
+  /*4张图的宽度*/
+  position: absolute;
+  /*基于父容器进行定位*/
+  left: 0;
+  animation: changeimg 12s infinite;
+  -webkit-animation: changeimg 12s infinite;
+  -moz-animation: changeimg 12s infinite;
+  -ms-animation: changeimg 12s infinite;
+}
+.main-one .carouselFigure .pic li {
+  float: left;
+}
+.main-one .carouselFigure .pic li img {
+  width: 750px;
+  height: 330px;
+}
+.main-one .loginInfo {
+  width: 240px;
+  height: 160px;
+  float: left;
+  background: #fff;
+  margin-left: 10px;
+  border: 1px solid F5F5F5;
+  position: relative;
+  /*登录框 小图标*/
+  /*登录和注册按钮*/
+}
+.main-one .loginInfo .user-login {
+  width: 180px;
+  height: 57px;
+  margin-top: 25px;
+  margin-left: 28px;
+  border: 3px solid F5F5F5;
+  /*登录提示欢迎信息*/
+}
+.main-one .loginInfo .user-login img {
+  width: 57px;
+  height: 57px;
+}
+.main-one .loginInfo .user-login p {
+  font-size: 12px;
+  color: #555;
+  line-height: 16px;
+  height: 16px;
+  width: 108px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-family: "Verdana,'Lantinghei SC','Hiragino Sans GB','Microsoft Yahei',Helvetica,arial,\5b8b\4f53,sans-serif";
+}
+.main-one .loginInfo .user-login .hello {
+  margin-top: -55px;
+  margin-left: 75px;
+}
+.main-one .loginInfo .user-login .welcome {
+  margin-top: 10px;
+  margin-left: 75px;
+}
+.main-one .loginInfo #jklogin a {
+  display: inline-block;
+  margin-top: 20px;
+  height: 30px;
+  line-height: 30px;
+  border: 1px solid #35b558;
+  border-radius: 2px;
+  width: 85px;
+  font-size: 14px;
+  color: #35b558;
+  text-align: center;
+  position: relative;
+  left: 50%;
+  font-family: "Verdana,'Lantinghei SC','Hiragino Sans GB','Microsoft Yahei',Helvetica,arial,\5b8b\4f53,sans-serif";
+  text-decoration: none;
+  transition: background .5s ease ,color .5s ease;
+  -webkit-transition: background .5s ease ,color .5s ease;
+  -moz-transition: background .5s ease ,color .5s ease;
+  -ms-transition: background .5s ease ,color .5s ease;
+}
+.main-one .loginInfo #jklogin a:hover {
+  background: #35b558;
+  color: #FFF;
+  cursor: pointer;
+}
+.main-one .loginInfo #jklogin .jk_login {
+  margin-left: -90px;
+}
+.main-one .fore-adv {
+  width: 240px;
+  height: 160px;
+  float: left;
+  display: inline-block;
+  margin-top: 10px;
+  margin-left: 10px;
+  border: 0 none;
+}
+@keyframes changeimg {
+  0%,
+  30% {
+    left: 0;
+  }
+  35%,
+  65% {
+    left: -750px;
+  }
+  70%,
+  99% {
+    left: -1500px;
+  }
+  100% {
+    left: 0;
+  }
+}
+@-webkit-keyframes changeimg {
+  0%,
+  30% {
+    left: 0;
+  }
+  35%,
+  65% {
+    left: -750px;
+  }
+  70%,
+  99% {
+    left: -1500px;
+  }
+  100% {
+    left: 0;
+  }
+}
+@-moz-keyframes changeimg {
+  0%,
+  30% {
+    left: 0;
+  }
+  35%,
+  65% {
+    left: -750px;
+  }
+  70%,
+  99% {
+    left: -1500px;
+  }
+  100% {
+    left: 0;
+  }
+}
+@-ms-keyframes changeimg {
+  0%,
+  30% {
+    left: 0;
+  }
+  35%,
+  65% {
+    left: -750px;
+  }
+  70%,
+  99% {
+    left: -1500px;
+  }
+  100% {
+    left: 0;
+  }
+}
+/*就业班列表*/
+.jiuye-list {
+  position: relative;
+  border: 0 none;
+  width: 1000px;
+  top: 40px;
+  height: 150px;
+}
+.jiuye-list a {
+  height: 70px;
+  width: 327px;
+  display: inline-block;
+  float: left;
+  transition: box-shadow 0.2s linear;
+  -webkit-transition: box-shadow 0.2s linear;
+  -moz-transition: box-shadow 0.2s linear;
+  -ms-transition: box-shadow 0.2s linear;
+}
+.jiuye-list a:hover {
+  box-shadow: 0px 3px 6px #ccc;
+}
+.jiuye-list p {
+  display: inline-block;
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+  width: 206px;
+  position: absolute;
+  padding-left: 33px;
+  padding-top: 25px;
+  font-weight: bolder;
+  font-family: "Verdana,'Lantinghei SC','Hiragino Sans GB','Microsoft Yahei',Helvetica,arial,\5b8b\4f53,sans-serif";
+}
+.jiuye-list img {
+  width: 55px;
+  height: 55px;
+  padding-left: 33px;
+  margin-top: 8px;
+}
+.jiuye-list .jiuye-php {
+  background: url(../image/jiuye-ban01_29b9e05.jpg) no-repeat center center;
+  background-size: 327px 70px;
+  margin-right: 9px;
+  left: 0;
+}
+.jiuye-list .jiuye-html5 {
+  background: url(../image/jiuye-ban02_0aec839.jpg) no-repeat center center;
+  background-size: 327px 70px;
+  margin-right: 9px;
+}
+.jiuye-list .jiuye-ui {
+  background: url(../image/jiuye-ban03_47f0666.jpg) no-repeat center center;
+  background-size: 327px 70px;
+}
+.jiuye-list .jiuye-android {
+  background: url(../image/jiuye-ban04_b84d257.jpg) no-repeat center center;
+  background-size: 327px 70px;
+  margin-right: 9px;
+  margin-top: 10px;
+}
+.jiuye-list .jiuye-ios {
+  background: url(../image/jiuye-ban05_9f8330c.jpg) no-repeat center center;
+  background-size: 327px 70px;
+  margin-right: 9px;
+  margin-top: 10px;
+}
+.jiuye-list .jiuye-javaweb {
+  background: url(../image/jiuye-ban06_2402215.jpg) no-repeat center center;
+  background-size: 327px 70px;
+  margin-top: 10px;
+}
+/*第三部分课程*/
+.course {
+  width: 1000px;
+  height: 270px;
+  position: relative;
+  top: 60px;
+  /*课程列表悬浮效果*/
+}
+.course div {
+  width: 230px;
+  float: left;
+}
+.course img {
+  height: 150px;
+  width: 230px;
+  padding: 0;
+  margin: 0;
+}
+.course .course_chat {
+  background: #FFF;
+  position: relative;
+  height: 270px;
+  transition: box-shadow 0.5s;
+  -webkit-transition: box-shadow 0.5s;
+  -moz-transition: box-shadow 0.5s;
+  -ms-transition: box-shadow 0.5s;
+}
+.course .course_python {
+  margin-left: 26px;
+  background: #FFF;
+  position: relative;
+  height: 270px;
+  transition: box-shadow 0.5s;
+  -webkit-transition: box-shadow 0.5s;
+  -moz-transition: box-shadow 0.5s;
+  -ms-transition: box-shadow 0.5s;
+}
+.course .course_swift {
+  margin-left: 26px;
+  background: #FFF;
+  position: relative;
+  height: 270px;
+  transition: box-shadow 0.5s;
+  -webkit-transition: box-shadow 0.5s;
+  -moz-transition: box-shadow 0.5s;
+  -ms-transition: box-shadow 0.5s;
+}
+.course .course_layout {
+  margin-left: 26px;
+  background: #FFF;
+  position: relative;
+  height: 270px;
+  transition: box-shadow 0.5s;
+  -webkit-transition: box-shadow 0.5s;
+  -moz-transition: box-shadow 0.5s;
+  -ms-transition: box-shadow 0.5s;
+}
+.course .course-detail {
+  position: absolute;
+  margin-top: 10px;
+  height: 113px;
+  padding-left: 14px;
+  /*课程标题*/
+  /*课时*/
+  /*课程现价*/
+  /*课程原价*/
+  /*学习人数*/
+}
+.course .course-detail .course-title {
+  font-size: 12px;
+  padding: 0;
+  margin: 0;
+  display: block;
+  line-height: 25px;
+  font-weight: 400;
+  color: #555;
+  font-family: "Verdana,'Lantinghei SC','Hiragino Sans GB','Microsoft Yahei',Helvetica,arial,\5b8b\4f53,sans-serif";
+}
+.course .course-detail .course-time {
+  font-size: 12px;
+  display: block;
+  line-height: 25px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #999;
+  font-family: "Verdana,'Lantinghei SC','Hiragino Sans GB','Microsoft Yahei',Helvetica,arial,\5b8b\4f53,sans-serif";
+  margin-top: 15px;
+}
+.course .course-detail .course-price {
+  float: left;
+  display: block;
+  font-size: 18px;
+  color: #ff5c00;
+  vertical-align: bottom;
+  margin-right: 5px;
+  margin-top: 8px;
+  font-family: "Verdana,'Lantinghei SC','Hiragino Sans GB','Microsoft Yahei',Helvetica,arial,\5b8b\4f53,sans-serif";
+}
+.course .course-detail .course-Beprice {
+  float: left;
+  font-size: 12px;
+  color: #999;
+  margin-top: 14px;
+  text-decoration: line-through;
+  vertical-align: bottom;
+  font-family: "Verdana,'Lantinghei SC','Hiragino Sans GB','Microsoft Yahei',Helvetica,arial,\5b8b\4f53,sans-serif";
+}
+.course .course-detail .course-StuNum {
+  display: inline-block;
+  height: 14px;
+  position: absolute;
+  bottom: 28px;
+  right: 27px;
+  color: #999;
+  font-size: 12px;
+  font-family: "Verdana,'Lantinghei SC','Hiragino Sans GB','Microsoft Yahei',Helvetica,arial,\5b8b\4f53,sans-serif";
+}
+.course .course_chat:hover,
+.course .course_python:hover,
+.course .course_swift:hover,
+.course .course_layout:hover {
+  box-shadow: 0px 2px 6px #ccc;
+}
+/*第四部分 职业学院*/
+.vocationalCollege {
+  width: 1000px;
+  position: relative;
+  top: 100px;
+  height: 310px;
+  /*职业学院 鼠标悬浮图片遮罩效果*/
+}
+.vocationalCollege h2 {
+  font-size: 18px;
+  color: #555;
+  height: 18px;
+  line-height: 18px;
+  font-weight: 400;
+  font-family: "Verdana,'Lantinghei SC','Hiragino Sans GB','Microsoft Yahei',Helvetica,arial,\5b8b\4f53,sans-serif";
+  margin-bottom: 20px;
+}
+.vocationalCollege div {
+  float: left;
+  display: inline-block;
+  text-align: center;
+}
+.vocationalCollege img {
+  width: 36px;
+  height: 36px;
+  padding-top: 36px;
+}
+.vocationalCollege a {
+  display: block;
+  text-decoration: none;
+}
+.vocationalCollege a:hover {
+  opacity: 0.9;
+  color: #ECECEC;
+  background: rgba(0, 0, 0, 0.2);
+}
+.vocationalCollege p {
+  color: #fff;
+  font-weight: 400;
+  font-family: "Verdana,'Lantinghei SC','Hiragino Sans GB','Microsoft Yahei',Helvetica,arial,\5b8b\4f53,sans-serif";
+  line-height: 50px;
+  display: block;
+  height: 55px;
+}
+.vocationalCollege .vocationalCollege_0ne {
+  height: 270px;
+  width: 500px;
+  background: url(../image/bgweb_054d9d5.jpg) no-repeat center center;
+  background-size: 500px 270px;
+  border: 0 none;
+  font-size: 20px;
+}
+.vocationalCollege .vocationalCollege_0ne img {
+  width: 55px;
+  height: 84px;
+  padding-top: 70px;
+}
+.vocationalCollege .vocationalCollege_0ne p {
+  color: #fff;
+  font-weight: 400;
+  font-family: "Verdana,'Lantinghei SC','Hiragino Sans GB','Microsoft Yahei',Helvetica,arial,\5b8b\4f53,sans-serif";
+  line-height: 100px;
+  display: block;
+  height: 110px;
+}
+.vocationalCollege .vocationalCollege_Two {
+  height: 130px;
+  width: 240px;
+  background: url(../image/bgpython_c21a999.jpg) no-repeat center center;
+  background-size: 240px 130px;
+  border: 0 none;
+  padding-right: 10px;
+  padding-left: 10px;
+  font-size: 14px;
+}
+.vocationalCollege .vocationalCollege_Three {
+  height: 130px;
+  width: 240px;
+  background: url(../image/bggo_6ac4e5b.jpg) no-repeat center center;
+  background-size: 240px 130px;
+  font-size: 14px;
+}
+.vocationalCollege .vocationalCollege_Four {
+  height: 130px;
+  width: 240px;
+  background: url(../image/bgios_cadb5b0.jpg) no-repeat center center;
+  background-size: 240px 130px;
+  font-size: 14px;
+  padding: 10px 10px 10px 10px;
+}
+.vocationalCollege .vocationalCollege_Five {
+  height: 130px;
+  width: 240px;
+  background: url(../image/bgmore_b32bab9.jpg) no-repeat center center;
+  background-size: 240px 130px;
+  padding-top: 20px;
+  font-size: 14px;
+  padding: 10px 0 10px 0;
+}
+/*第五部分 会员课程*/
+.memberCourse {
+  width: 1000px;
+  position: relative;
+  top: 130px;
+  height: 420px;
+  /*全部会员课程*/
+}
+.memberCourse h2 {
+  font-size: 18px;
+  color: #555;
+  height: 18px;
+  line-height: 18px;
+  font-weight: 400;
+  font-family: "Verdana,'Lantinghei SC','Hiragino Sans GB','Microsoft Yahei',Helvetica,arial,\5b8b\4f53,sans-serif";
+  margin-bottom: 20px;
+}
+.memberCourse div {
+  width: 156px;
+  height: 148px;
+  background: #FFF;
+  float: left;
+  margin-top: 10px;
+  border: 1px solid F5F5F5;
+  display: inline-block;
+}
+.memberCourse ul li {
+  list-style: none;
+  float: left;
+  width: 158px;
+  height: 150px;
+  border: 1px solid #e9e9e9;
+  background: #fff;
+  text-align: center;
+  margin-top: 10px;
+  /*会员课程鼠标悬浮效果*/
+  /*XX语言*/
+  /*XX门课*/
+}
+.memberCourse ul li a {
+  text-align: center;
+  height: 150px;
+  display: block;
+  text-decoration: none;
+  transition: box-shadow 0.5s;
+  -webkit-transition: box-shadow 0.5s;
+  -moz-transition: box-shadow 0.5s;
+  -ms-transition: box-shadow 0.5s;
+}
+.memberCourse ul li a:hover {
+  box-shadow: 0px 2px 6px #ccc;
+}
+.memberCourse ul li p {
+  font-size: 12px;
+  color: #555;
+  font-family: "Verdana,'Lantinghei SC','Hiragino Sans GB','Microsoft Yahei',Helvetica,arial,\5b8b\4f53,sans-serif";
+}
+.memberCourse ul li span {
+  font-size: 12px;
+  color: #35b558;
+  font-family: "Verdana,'Lantinghei SC','Hiragino Sans GB','Microsoft Yahei',Helvetica,arial,\5b8b\4f53,sans-serif";
+  display: block;
+  line-height: 25px;
+  height: 25px;
+}
+.memberCourse img {
+  width: 55px;
+  height: 55px;
+  margin-top: 25px;
+}
+.memberCourse .memberCourse_2,
+.memberCourse .memberCourse_3,
+.memberCourse .memberCourse_4,
+.memberCourse .memberCourse_5,
+.memberCourse .memberCourse_6,
+.memberCourse .memberCourse_8,
+.memberCourse .memberCourse_9,
+.memberCourse .memberCourse_10,
+.memberCourse .memberCourse_11,
+.memberCourse .memberCourse_12 {
+  margin-left: 8px;
+}
+.memberCourse a {
+  text-align: center;
+}
+.memberCourse .memberCourse_more {
+  display: inline-block;
+  margin-top: 38px;
+  height: 32px;
+  line-height: 30px;
+  border: 1px solid #35b558;
+  border-radius: 2px;
+  width: 120px;
+  font-size: 14px;
+  color: #35b558;
+  text-align: center;
+  position: relative;
+  left: 50%;
+  margin-left: -60px;
+  transition: background .5s ease ,color .5s ease;
+  -webkit-transition: background .5s ease ,color .5s ease;
+  -moz-transition: background .5s ease ,color .5s ease;
+  -ms-transition: background .5s ease ,color .5s ease;
+}
+.memberCourse .memberCourse_more:hover {
+  background: #35b558;
+  color: #fff;
+  cursor: pointer;
+}
+/*第六部分 学员故事*/
+.studentStory {
+  width: 1000px;
+  position: relative;
+  top: 180px;
+  height: 280px;
+  overflow: hidden;
+  /*学员故事引号*/
+  /*学员故事引号结束*/
+  /*学员故事边框三角形*/
+  /*学员故事边框三角形结束*/
+  /*学员故事部分的切换*/
+}
+.studentStory h2 {
+  font-size: 18px;
+  color: #555;
+  height: 18px;
+  line-height: 18px;
+  font-weight: 400;
+  font-family: "Verdana,'Lantinghei SC','Hiragino Sans GB','Microsoft Yahei',Helvetica,arial,\5b8b\4f53,sans-serif";
+  margin-bottom: 20px;
+}
+.studentStory .ss_content {
+  width: 318px;
+  height: 119px;
+  background: #FFF;
+  border: 1px solid #e9e9e9;
+  transition: box-shadow 0.5s;
+  -webkit-transition: box-shadow 0.5s;
+  -moz-transition: box-shadow 0.5s;
+  -ms-transition: box-shadow 0.5s;
+}
+.studentStory .ss_content:hover {
+  box-shadow: 0px 2px 6px #ccc;
+}
+.studentStory .ss_content p {
+  width: 270;
+  font-family: "Verdana,'Lantinghei SC','Hiragino Sans GB','Microsoft Yahei',Helvetica,arial,\5b8b\4f53,sans-serif";
+  color: #555;
+  font-weight: 400;
+  padding: 20px 25px;
+  height: 100%;
+  overflow: hidden;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: left;
+}
+.studentStory .studentStory_1 .ss_content p:before {
+  content: '';
+  display: inline-block;
+  width: 14px;
+  height: 10px;
+  background: url(../image/storyicon_4a5e270.png) no-repeat center;
+  background-size: 14px 10px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.studentStory .studentStory_1 .ss_content p:after {
+  content: '';
+  display: inline-block;
+  width: 14px;
+  height: 10px;
+  background: url(../image/storyicon_4a5e270.png) no-repeat center;
+  background-size: 14px 10px;
+  position: absolute;
+  top: 100px;
+  left: 291px;
+  transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+}
+.studentStory .studentStory_2 .ss_content p:before {
+  content: '';
+  display: inline-block;
+  width: 14px;
+  height: 10px;
+  background: url(../image/storyicon_4a5e270.png) no-repeat center;
+  background-size: 14px 10px;
+  position: absolute;
+  top: 10px;
+  left: 352px;
+}
+.studentStory .studentStory_2 .ss_content p:after {
+  content: '';
+  display: inline-block;
+  width: 14px;
+  height: 10px;
+  background: url(../image/storyicon_4a5e270.png) no-repeat center;
+  background-size: 14px 10px;
+  position: absolute;
+  top: 100px;
+  left: 632px;
+  transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+}
+.studentStory .studentStory_3 .ss_content p:before {
+  content: '';
+  display: inline-block;
+  width: 14px;
+  height: 10px;
+  background: url(../image/storyicon_4a5e270.png) no-repeat center;
+  background-size: 14px 10px;
+  position: absolute;
+  top: 10px;
+  left: 690px;
+}
+.studentStory .studentStory_3 .ss_content p:after {
+  content: '';
+  display: inline-block;
+  width: 14px;
+  height: 10px;
+  background: url(../image/storyicon_4a5e270.png) no-repeat center;
+  background-size: 14px 10px;
+  position: absolute;
+  top: 100px;
+  left: 973px;
+  transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+}
+.studentStory .studentStory_4 .ss_content p:before {
+  content: '';
+  display: inline-block;
+  width: 14px;
+  height: 10px;
+  background: url(../image/storyicon_4a5e270.png) no-repeat center;
+  background-size: 14px 10px;
+  position: absolute;
+  top: 10px;
+  left: 1010px;
+}
+.studentStory .studentStory_4 .ss_content p:after {
+  content: '';
+  display: inline-block;
+  width: 14px;
+  height: 10px;
+  background: url(../image/storyicon_4a5e270.png) no-repeat center;
+  background-size: 14px 10px;
+  position: absolute;
+  top: 100px;
+  left: 1291px;
+  transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+}
+.studentStory .studentStory_5 .ss_content p:before {
+  content: '';
+  display: inline-block;
+  width: 14px;
+  height: 10px;
+  background: url(../image/storyicon_4a5e270.png) no-repeat center;
+  background-size: 14px 10px;
+  position: absolute;
+  top: 10px;
+  left: 1346px;
+}
+.studentStory .studentStory_5 .ss_content p:after {
+  content: '';
+  display: inline-block;
+  width: 14px;
+  height: 10px;
+  background: url(../image/storyicon_4a5e270.png) no-repeat center;
+  background-size: 14px 10px;
+  position: absolute;
+  top: 100px;
+  left: 1630px;
+  transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+}
+.studentStory .studentStory_6 .ss_content p:before {
+  content: '';
+  display: inline-block;
+  width: 14px;
+  height: 10px;
+  background: url(../image/storyicon_4a5e270.png) no-repeat center;
+  background-size: 14px 10px;
+  position: absolute;
+  top: 10px;
+  left: 1690px;
+}
+.studentStory .studentStory_6 .ss_content p:after {
+  content: '';
+  display: inline-block;
+  width: 14px;
+  height: 10px;
+  background: url(../image/storyicon_4a5e270.png) no-repeat center;
+  background-size: 14px 10px;
+  position: absolute;
+  top: 100px;
+  left: 1975px;
+  transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+}
+.studentStory .ss_content_sanjiao1 {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-top: 12px solid #fff;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  position: absolute;
+  bottom: 68px;
+  left: 50px;
+}
+.studentStory .ss_content_sanjiao2 {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-top: 12px solid #fff;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  position: absolute;
+  bottom: 68px;
+  left: 389px;
+}
+.studentStory .ss_content_sanjiao3 {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-top: 12px solid #fff;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  position: absolute;
+  bottom: 68px;
+  left: 728px;
+}
+.studentStory .ss_content_sanjiao4 {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-top: 12px solid #fff;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  position: absolute;
+  bottom: 68px;
+  left: 1048px;
+}
+.studentStory .ss_content_sanjiao5 {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-top: 12px solid #fff;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  position: absolute;
+  bottom: 68px;
+  left: 1390px;
+}
+.studentStory .ss_content_sanjiao6 {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-top: 12px solid #fff;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  position: absolute;
+  bottom: 68px;
+  left: 1730px;
+}
+.studentStory ul li {
+  list-style: none;
+  float: left;
+  text-align: center;
+}
+.studentStory ul li .ss_info {
+  width: 320px;
+  height: 80px;
+}
+.studentStory ul li .ss_info img {
+  width: 60px;
+  height: 60px;
+  float: left;
+  margin-left: 25px;
+  margin-top: 20px;
+  border-radius: 50%;
+  border: 1px solid #e9e9e9;
+}
+.studentStory ul li .ss_info p {
+  font-size: 12px;
+  line-height: 24px;
+  overflow: hidden;
+  text-align: left;
+  padding-top: 22px;
+  padding-left: 15px;
+}
+.studentStory ul li .ss_info span {
+  height: 24px;
+  line-height: 24px;
+  color: #999;
+  font-size: 12px;
+}
+.studentStory ul li .ss_info .ss_info_1 {
+  margin-left: -125px;
+}
+.studentStory ul li .ss_info .ss_info_2 {
+  margin-left: -42px;
+}
+.studentStory ul li .ss_info .ss_info_3 {
+  margin-left: -17px;
+}
+.studentStory .studentStory_2 {
+  margin-left: 20px;
+}
+.studentStory .studentStory_3 {
+  margin-left: 20px;
+}
+.studentStory .studentStory_5 {
+  margin-left: 20px;
+}
+.studentStory .studentStory_6 {
+  margin-left: 20px;
+}
+.studentStory .carouselFigure-story {
+  width: 2000px;
+  height: 200px;
+  display: inline-block;
+  float: left;
+  border: 0 none;
+  position: relative;
+  animation: focusmap 10s infinite;
+  -webkit-animation: focusmap 10s infinite;
+  -moz-animation: focusmap 10s infinite;
+  -ms-animation: focusmap 10s infinite;
+}
+.studentStory .carouselFigure-story ul {
+  float: left;
+  width: 1000px;
+  height: 200px;
+}
+/*第七部分 合作企业*/
+.cooperativeEnterprise {
+  width: 1000px;
+  position: relative;
+  top: 220px;
+  height: 300px;
+  /*更多合作企业*/
+}
+.cooperativeEnterprise h2 {
+  font-size: 18px;
+  color: #555;
+  height: 18px;
+  line-height: 18px;
+  font-weight: 400;
+  font-family: "Verdana,'Lantinghei SC','Hiragino Sans GB','Microsoft Yahei',Helvetica,arial,\5b8b\4f53,sans-serif";
+  margin-bottom: 20px;
+}
+.cooperativeEnterprise span {
+  float: left;
+  width: 148px;
+  height: 48px;
+  background-color: #FFF;
+  border: 1px solid F5F5F5;
+  transition: box-shadow 0.5s;
+  -webkit-transition: box-shadow 0.5s;
+  -moz-transition: box-shadow 0.5s;
+  -ms-transition: box-shadow 0.5s;
+}
+.cooperativeEnterprise span:hover {
+  box-shadow: 0px 2px 6px #ccc;
+}
+.cooperativeEnterprise .cooperativeEnterprise_more {
+  display: inline-block;
+  margin-top: 38px;
+  height: 32px;
+  line-height: 30px;
+  border: 1px solid #35b558;
+  border-radius: 2px;
+  width: 120px;
+  font-size: 14px;
+  color: #35b558;
+  text-align: center;
+  position: relative;
+  left: 50%;
+  margin-left: -60px;
+  font-family: "Verdana,'Lantinghei SC','Hiragino Sans GB','Microsoft Yahei',Helvetica,arial,\5b8b\4f53,sans-serif";
+  text-decoration: none;
+  transition: background .5s ease ,color .5s ease;
+  -webkit-transition: background .5s ease ,color .5s ease;
+  -moz-transition: background .5s ease ,color .5s ease;
+  -ms-transition: background .5s ease ,color .5s ease;
+}
+.cooperativeEnterprise .cooperativeEnterprise_more:hover {
+  background: #35b558;
+  color: #fff;
+  cursor: pointer;
+}
+/*合作企业列表 -start*/
+.cooperativeEnterprise_1 {
+  background: url(../image/p_microsoft_82f9a9a.png) no-repeat center center;
+  padding-left: 1px;
+}
+.cooperativeEnterprise_2 {
+  background: url(../image/p_tencent_47175aa.png) no-repeat center center;
+  margin-left: 22px;
+}
+.cooperativeEnterprise_3 {
+  background: url(../image/p_qcloud_ab76cc7.png) no-repeat center center;
+  margin-left: 22px;
+}
+.cooperativeEnterprise_4 {
+  background: url(../image/p_qualcomm_362a472.png) no-repeat center center;
+  margin-left: 22px;
+}
+.cooperativeEnterprise_5 {
+  background: url(../image/p_cocos_2a0a8f3.png) no-repeat center center;
+  margin-left: 22px;
+}
+.cooperativeEnterprise_6 {
+  background: url(../image/p_amd_f9f0c7f.png) no-repeat center center;
+  margin-left: 22px;
+}
+.cooperativeEnterprise_7 {
+  background: url(../image/p_xunfei_d1cd670.png) no-repeat center center;
+  margin-top: 20px;
+  padding-left: 1px;
+}
+.cooperativeEnterprise_8 {
+  background: url(../image/p_tuling_3ec6ea2.png) no-repeat center center;
+  margin-top: 20px;
+  margin-left: 22px;
+}
+.cooperativeEnterprise_9 {
+  background: url(../image/p_tingyun_c2752df.png) no-repeat center center;
+  margin-top: 20px;
+  margin-left: 22px;
+}
+.cooperativeEnterprise_10 {
+  background: url(../image/p_juhe_25bbedf.png) no-repeat center center;
+  margin-top: 20px;
+  margin-left: 22px;
+}
+.cooperativeEnterprise_11 {
+  background: url(../image/p_bootstrap_d0a74f3.png) no-repeat center center;
+  margin-top: 20px;
+  margin-left: 22px;
+}
+.cooperativeEnterprise_12 {
+  background: url(../image/p_cloudstack_6ecabb3.png) no-repeat center center;
+  margin-top: 20px;
+  margin-left: 22px;
+}
+/*合作企业列表 -end*/
+/*尾部*/
+.footer {
+  position: relative;
+  top: 200px;
+  background: #fff;
+  /*尾部内容*/
+  /*尾部版权信息*/
+}
+.footer .footer_content {
+  height: 218px;
+  width: 1000px;
+  margin: 0 auto;
+  position: relative;
+}
+.footer .footer_content .foot-iamge {
+  position: absolute;
+  left: 0;
+  top: 25px;
+  display: inline-block;
+  width: 160px;
+}
+.footer .footer_content .foot-iamge img {
+  height: 40px;
+  width: 109px;
+}
+.footer .footer_content .foot-iamge p {
+  font-size: 12px;
+  color: #999;
+  margin-top: 20px;
+}
+.footer div dl {
+  display: inline-block;
+}
+.footer .foot-link {
+  margin-left: 175px;
+  top: 25px;
+  position: absolute;
+}
+.footer .foot-link a {
+  text-decoration: none;
+  color: #999999;
+}
+.footer .foot-link a:hover {
+  color: #35b558;
+}
+.footer .foot-link a:visited {
+  color: #999999;
+}
+.footer .foot-link dl {
+  margin-left: 50px;
+}
+.footer .foot-link dl dd {
+  font-size: 12px;
+  line-height: 30px;
+  font-family: "Verdana,'Lantinghei SC','Hiragino Sans GB','Microsoft Yahei',Helvetica,arial,\5b8b\4f53,sans-serif";
+}
+.footer .foot-link dt {
+  font-size: 14px;
+  line-height: 30px;
+  font-family: "Verdana,'Lantinghei SC','Hiragino Sans GB','Microsoft Yahei',Helvetica,arial,\5b8b\4f53,sans-serif";
+  color: #808080;
+}
+.footer .footer_copyright {
+  font-size: 12px;
+  color: #999;
+  margin: 0 auto;
+  width: 1000px;
+  text-align: center;
+  padding: 15px 0;
+  font-family: "Verdana,'Lantinghei SC','Hiragino Sans GB','Microsoft Yahei',Helvetica,arial,\5b8b\4f53,sans-serif";
+  border-top: 1px solid #F5F5F5;
+  /*新浪和微信关注*/
+}
+.footer .footer_copyright a {
+  text-decoration: none;
+  color: #999999;
+}
+.footer .footer_copyright a:hover {
+  color: #35b558;
+}
+.footer .footer_copyright a:visited {
+  color: #999999;
+}
+.footer .footer_copyright .down-sina {
+  float: right;
+  height: 15px;
+  width: 20px;
+  background: url(../image/icon-down-wechat.png) no-repeat 0 0;
+  background-size: 18px 15px;
+}
+.footer .footer_copyright .down-chat {
+  float: right;
+  height: 15px;
+  width: 20px;
+  margin-right: 10px;
+  background: url(../image/icon-down-sina.png) no-repeat 0 0;
+  background-size: 20px 15px;
+}
+.footer .footer_copyright .down-remark {
+  display: block;
+  top: 10px;
+}
+.footer .footer_copyright .down-remark img {
+  width: 60px;
+  height: 22px;
+  padding-top: 10px;
+}
+/*客服热线和扫描下载*/
+.foot-hotline {
+  position: absolute;
+  right: -310px;
+  top: 0;
+  /*ios扫描*/
+  /*底部安卓扫描*/
+}
+.foot-hotline p {
+  font-family: "Verdana,'Lantinghei SC','Hiragino Sans GB','Microsoft Yahei',Helvetica,arial,\5b8b\4f53,sans-serif";
+  color: #808080;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+.foot-hotline .foot-ios {
+  background: url(../image/icon-down-ios.png) no-repeat left center;
+  background-size: 30px 30px;
+  border: 1px solid #F5F5F5;
+  text-align: left;
+  height: 30px;
+  width: 140px;
+}
+.foot-hotline .foot-android {
+  background: url(../image/icon-down-and.png) no-repeat left center;
+  background-size: 30px 30px;
+  border: 1px solid #F5F5F5;
+  text-align: left;
+  margin-top: 10px;
+  height: 30px;
+  width: 140px;
+}
+.foot-hotline p {
+  font-family: "Verdana,'Lantinghei SC','Hiragino Sans GB','Microsoft Yahei',Helvetica,arial,\5b8b\4f53,sans-serif";
+  color: #808080;
+  font-size: 14px;
+}
+.foot-hotline .foot-ios-1 {
+  padding-left: 40px;
+  padding-top: 5px;
+}
+.foot-hotline .foot-image_i {
+  width: 120px;
+  height: 160px;
+  position: relative;
+  z-index: 5555;
+  background: url(../image/app.png) 0 0 no-repeat;
+  background-size: 120px 160px;
+  margin-top: -203px;
+  right: -10px;
+  display: none;
+}
+.foot-hotline .foot-ios:hover .foot-image_i {
+  display: block;
+}
+.foot-hotline .foot-image-a {
+  width: 120px;
+  height: 160px;
+  position: relative;
+  z-index: 5555;
+  background: url(../image/app.png) 0 0 no-repeat;
+  background-size: 120px 160px;
+  margin-top: -203px;
+  right: -10px;
+  display: none;
+}
+.foot-hotline .foot-android:hover .foot-image-a {
+  display: block;
+}
+.foot-hotline .foot-ios:hover .foot-image_i {
+  display: block;
+}
+.foot-hotline .foot-android:hover .foot-image-a {
+  display: block;
+}
+/*底部右侧小图标：向上回到顶部*/
+.gotop-box {
+  width: 34px;
+  position: fixed;
+  display: inline-block;
+  left: 50%;
+  margin-left: 510px;
+  bottom: 75px;
+  text-align: center;
+  z-index: 2000;
+  font-size: 0;
+}
+.gotop-box .gotop {
+  background: url(../image/gotop.jpg) 0 0 no-repeat;
+  background-size: 34px 103px;
+  width: 34px;
+  height: 34px;
+  display: inline-block;
+}
+.gotop-box .gotop:hover {
+  background: url(../image/gotop2.jpg) 0 0 no-repeat;
+  background-size: 34px 103px;
+  width: 34px;
+  height: 34px;
+  display: inline-block;
+}
+.gotop-box .upload {
+  background: #ECECEC url(../image/phone-1.png) center center no-repeat;
+  background-size: 12px 24px;
+  width: 34px;
+  height: 34px;
+  display: inline-block;
+  /*底部右侧向上小图标下的二维码扫描*/
+}
+.gotop-box .upload .upload-image {
+  width: 120px;
+  height: 160px;
+  position: relative;
+  z-index: 5555;
+  background: url(../image/appewm.png) 0 0 no-repeat;
+  background-size: 120px 160px;
+  margin-top: -71px;
+  right: 120px;
+  display: none;
+}
+.gotop-box .upload:hover .upload-image {
+  display: block;
+}
+@keyframes focusmap {
+  0%,
+  30% {
+    left: 0;
+  }
+  35%,
+  65% {
+    left: -1000px;
+  }
+  100% {
+    left: 0;
+  }
+}
+@-webkit-keyframes focusmap {
+  0%,
+  30% {
+    left: 0;
+  }
+  35%,
+  65% {
+    left: -1000px;
+  }
+  100% {
+    left: 0;
+  }
+}
+@-moz-keyframes focusmap {
+  0%,
+  30% {
+    left: 0;
+  }
+  35%,
+  65% {
+    left: -1000px;
+  }
+  100% {
+    left: 0;
+  }
+}
+@-ms-keyframes focusmap {
+  0%,
+  30% {
+    left: 0;
+  }
+  35%,
+  65% {
+    left: -1000px;
+  }
+  100% {
+    left: 0;
+  }
+}

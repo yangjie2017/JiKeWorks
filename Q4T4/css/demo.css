@@ -1,0 +1,60 @@
+﻿/*全局样式*/
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	background-color:#EBEBEB;
+}
+/*容器*/
+.container{
+	width:1000px;
+	height:100%;
+	background-color:#FFF;
+	padding-top:30px;
+	padding-left:30px;
+	padding-right:30px;
+	font-size:15px;
+	margin:0 auto;
+}
+/*标题*/
+.c_title{
+	text-align:center;
+	height:40px;
+	padding-top: 20px;
+}
+
+/*描述中的锚点标签*/
+.c_desc a{
+	color:#FF3300;
+	text-decoration: none;
+}
+h4{
+	height:30px;
+	background-color:#E3D7BF;
+	margin-top:30px;
+	line-height:30px;
+	padding-left:10px;
+}
+h4,dt,dd{
+	margin-bottom:10px;
+}
+dt{
+	font-size:20px;
+	font-weight:bolder;
+}
+dd{
+	text-indent:30px;
+
+	/*display:none;*/
+}
+/*dd中的span元素换行*/
+dd span{
+	display:block;
+}
+span b{
+	font-size:13px;
+}
+span .d_none{
+	display:none;
+}
